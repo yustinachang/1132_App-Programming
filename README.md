@@ -2,7 +2,7 @@
 
 113 學年度第二學期的 Android 課程作品。ClueCube 以 Kotlin 與 OpenGL ES 實作立方體拼圖和三視圖練習，探索三維形狀與二維投影的對應。
 
-ClueCube 操作演示實錄 [Demo](https://youtu.be/31w0gicTVMQ) 
+ClueCube 操作演示實錄 [Youtube Demo](https://youtu.be/31w0gicTVMQ) 
 
 ## 專案導覽
 
