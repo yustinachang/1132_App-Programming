@@ -1,0 +1,396 @@
+{
+  "source_archive": "FinalApplication3.zip",
+  "source_archive_sha256": "30ef876c7e2ce7198cb58b4ed1666ece8830f77a9cd62d9a25bae0fb5431302f",
+  "files": [
+    {
+      "path": ".gitignore",
+      "archive_path": "FinalApplication3/.gitignore",
+      "bytes": 225,
+      "sha256": "703238443066325af08e3868d1e4b571a633baf68fcc93e323f0066999a97e1b",
+      "git_blob_sha": "aa724b77071afcbd9bb398053e05adaf7ac9405a"
+    },
+    {
+      "path": "app/.gitignore",
+      "archive_path": "FinalApplication3/app/.gitignore",
+      "bytes": 6,
+      "sha256": "5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4",
+      "git_blob_sha": "42afabfd2abebf31384ca7797186a27a4b7dbee8"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "archive_path": "FinalApplication3/app/build.gradle.kts",
+      "bytes": 1234,
+      "sha256": "8a328e319a39e24dcacd9fda1ab6e3afedb43b774179634cdef347f5cc35cfa9",
+      "git_blob_sha": "8b43534f2029598e063fa99afd26a35098aa54e6"
+    },
+    {
+      "path": "app/proguard-rules.pro",
+      "archive_path": "FinalApplication3/app/proguard-rules.pro",
+      "bytes": 750,
+      "sha256": "56fd960cf225f6ca40f982b13a5dbb0d8bc3dfde13ff76422825c6070d0a1890",
+      "git_blob_sha": "481bb434814107eb79d7a30b676d344b0df2f8ce"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/finalapplication3/ExampleInstrumentedTest.kt",
+      "archive_path": "FinalApplication3/app/src/androidTest/java/com/example/finalapplication3/ExampleInstrumentedTest.kt",
+      "bytes": 685,
+      "sha256": "94fdd70aef5361a087e6fa2dcca44be9a6b9fb24a86edb9787ec42912d271103",
+      "git_blob_sha": "86897706c25710ac995d54a88aa0dde377fe1049"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "archive_path": "FinalApplication3/app/src/main/AndroidManifest.xml",
+      "bytes": 1172,
+      "sha256": "ca07d80448ee20408f4925fb1b9ef017a879be890ec27175334e545c7961cb5d",
+      "git_blob_sha": "324d8e8388b2d102d5304f0af494d8f18e216c16"
+    },
+    {
+      "path": "app/src/main/java/com/example/finalapplication3/CellGrid.kt",
+      "archive_path": "FinalApplication3/app/src/main/java/com/example/finalapplication3/CellGrid.kt",
+      "bytes": 3057,
+      "sha256": "5e538f939d951ea75831964fd51f6f2fb48a7fdc5fbe593ea104b68018532fe0",
+      "git_blob_sha": "280f41a03614450c95bbb78e8eb8b69a35945fa1"
+    },
+    {
+      "path": "app/src/main/java/com/example/finalapplication3/CubeGrid.kt",
+      "archive_path": "FinalApplication3/app/src/main/java/com/example/finalapplication3/CubeGrid.kt",
+      "bytes": 2988,
+      "sha256": "f02b4aa977f8467a4352984c2ac0115d3b46dc2a4a667ef8d04589020a934036",
+      "git_blob_sha": "898899e171fece82787cdb03bd9e6ce07e0cfba7"
+    },
+    {
+      "path": "app/src/main/java/com/example/finalapplication3/MainActivity.kt",
+      "archive_path": "FinalApplication3/app/src/main/java/com/example/finalapplication3/MainActivity.kt",
+      "bytes": 1334,
+      "sha256": "4be380f91b54e90887002b22c4736094d7e5833635526b94b33cfeaf3d0bcbf9",
+      "git_blob_sha": "870dd9301938172cce1f1f55610b1cfac81d5471"
+    },
+    {
+      "path": "app/src/main/java/com/example/finalapplication3/MainActivity2.kt",
+      "archive_path": "FinalApplication3/app/src/main/java/com/example/finalapplication3/MainActivity2.kt",
+      "bytes": 6184,
+      "sha256": "5c78601714d74dea5ba011a4229cb031ba95d0d535077fa0698cbf8834361a18",
+      "git_blob_sha": "731c298636423907090f1cd7ea60d57d8b626532"
+    },
+    {
+      "path": "app/src/main/java/com/example/finalapplication3/MainActivity3.kt",
+      "archive_path": "FinalApplication3/app/src/main/java/com/example/finalapplication3/MainActivity3.kt",
+      "bytes": 5494,
+      "sha256": "bd8a861dfcaab1429fee39a2d4b80229692d204600f4d5b353c0b99dab8a6fb7",
+      "git_blob_sha": "de131614e7a0abfc864f2b7ae36be8843b36ddcc"
+    },
+    {
+      "path": "app/src/main/java/com/example/finalapplication3/MyGLRenderer.kt",
+      "archive_path": "FinalApplication3/app/src/main/java/com/example/finalapplication3/MyGLRenderer.kt",
+      "bytes": 5977,
+      "sha256": "882c6118a5c2de7d5e27675227a364f3ff84dff56c6aa6a62737393a06f7a582",
+      "git_blob_sha": "a3e4ebac218d5d1d6e9f9f19ea365f99bc51dc0b"
+    },
+    {
+      "path": "app/src/main/java/com/example/finalapplication3/MyGLSurfaceView.kt",
+      "archive_path": "FinalApplication3/app/src/main/java/com/example/finalapplication3/MyGLSurfaceView.kt",
+      "bytes": 3291,
+      "sha256": "84e5519cbe54ec51dd43c4a3a2f4a6fbe4be52bffd21859c659c0c9604171d69",
+      "git_blob_sha": "782e7020c56f28686e87174b77a8fddfc65e7e26"
+    },
+    {
+      "path": "app/src/main/java/com/example/finalapplication3/OrthographicViewGenerator.kt",
+      "archive_path": "FinalApplication3/app/src/main/java/com/example/finalapplication3/OrthographicViewGenerator.kt",
+      "bytes": 2385,
+      "sha256": "102ed642931a2bf645ec1378c296e9d00a642a893fb283c561b66aa0a0a7468c",
+      "git_blob_sha": "2e9d749bcad0329f9c1f209df9992049842d817b"
+    },
+    {
+      "path": "app/src/main/java/com/example/finalapplication3/UnitCube.kt",
+      "archive_path": "FinalApplication3/app/src/main/java/com/example/finalapplication3/UnitCube.kt",
+      "bytes": 5057,
+      "sha256": "386508bd4231ceeefc170e925d0807a484579f8636e89f4272640e17fa94a1c7",
+      "git_blob_sha": "a33af50f134d27bcdf959b87ef90ba29c1eb67f4"
+    },
+    {
+      "path": "app/src/main/res/drawable/cube_1.png",
+      "archive_path": "FinalApplication3/app/src/main/res/drawable/cube_1.png",
+      "bytes": 6558,
+      "sha256": "d640371070de38998f415d95a85bb50f3a807a7dfe33921a4371a511d70d9bd0",
+      "git_blob_sha": "eba0b717f4a74e0feead845b443a1c8f197bb6c7"
+    },
+    {
+      "path": "app/src/main/res/drawable/cube_2.png",
+      "archive_path": "FinalApplication3/app/src/main/res/drawable/cube_2.png",
+      "bytes": 6567,
+      "sha256": "7fece411138c92b9271cef0e17659fbbde4f2035a487d5914790c1d9765e3c41",
+      "git_blob_sha": "0278256ca875e4fbd0b2dd1fe2bcbc26337f5788"
+    },
+    {
+      "path": "app/src/main/res/drawable/cube_3.png",
+      "archive_path": "FinalApplication3/app/src/main/res/drawable/cube_3.png",
+      "bytes": 6521,
+      "sha256": "70ee3adf0d948d9e1c6d2c8fc4a1291293d0102647904fff73b8faadb826db0d",
+      "git_blob_sha": "0756fbb72e53c82243c7c15bdfef4859e9e92ac8"
+    },
+    {
+      "path": "app/src/main/res/drawable/cube_3d.png",
+      "archive_path": "FinalApplication3/app/src/main/res/drawable/cube_3d.png",
+      "bytes": 14003,
+      "sha256": "22f1342ae16686477d68865d20be94b42911915883088a3e26c3b98a5e99046c",
+      "git_blob_sha": "cb630a66ecedf85c2fd239dda11acd436235e699"
+    },
+    {
+      "path": "app/src/main/res/drawable/cube_4.png",
+      "archive_path": "FinalApplication3/app/src/main/res/drawable/cube_4.png",
+      "bytes": 6646,
+      "sha256": "65c7a58133bcd678c39d5431027c792a70592d4a3fc35dd9162db1abf95a852e",
+      "git_blob_sha": "b762f4ed071d80ddaf40c675fd4228be3d171dfa"
+    },
+    {
+      "path": "app/src/main/res/drawable/cube_5.png",
+      "archive_path": "FinalApplication3/app/src/main/res/drawable/cube_5.png",
+      "bytes": 6466,
+      "sha256": "59f34c3161abc0a3c258ec08221f4d54c4a5f34a2086c2bb56901c4a8e8c10ba",
+      "git_blob_sha": "b7ffd076f21157170e11822c8768fa1b7cf30310"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+      "archive_path": "FinalApplication3/app/src/main/res/drawable/ic_launcher_background.xml",
+      "bytes": 5606,
+      "sha256": "ed423c73a6f40a4d2909f0901e60527b3a807cd59e1b5593bcaae1808b1c6321",
+      "git_blob_sha": "07d5da9cbf141911847041df5d7b87f0dd5ef9d4"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "archive_path": "FinalApplication3/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "bytes": 1702,
+      "sha256": "01d1a6a6c1234eb7fe270d097eb283d72b9c95ae5118886f1b6573aad280f1f7",
+      "git_blob_sha": "2b068d11462a4b96669193de13a711a3a36220a0"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_unknown.png",
+      "archive_path": "FinalApplication3/app/src/main/res/drawable/ic_unknown.png",
+      "bytes": 585,
+      "sha256": "d130453eeeab8cf1bdd222a36247be636f7666b473985a9a063b95e451e7b999",
+      "git_blob_sha": "1bf5bd801cdcae0404a16cccb460918996ed5084"
+    },
+    {
+      "path": "app/src/main/res/layout/activity_main.xml",
+      "archive_path": "FinalApplication3/app/src/main/res/layout/activity_main.xml",
+      "bytes": 2109,
+      "sha256": "319448e5fc46ab2107c9b9fc240bb52d58e82b66b1a51f7d057d383f5d37e712",
+      "git_blob_sha": "e502ee600be61517963d1a79e233f2d76779a2e5"
+    },
+    {
+      "path": "app/src/main/res/layout/activity_main2.xml",
+      "archive_path": "FinalApplication3/app/src/main/res/layout/activity_main2.xml",
+      "bytes": 2875,
+      "sha256": "b9f335ef4a0a6fd8e6dbf254c2bc70fce02439519781dfc1762e2a0294c28f02",
+      "git_blob_sha": "8914eb76a190ca81c3c82c134e8582c25defaa03"
+    },
+    {
+      "path": "app/src/main/res/layout/activity_main3.xml",
+      "archive_path": "FinalApplication3/app/src/main/res/layout/activity_main3.xml",
+      "bytes": 4771,
+      "sha256": "a2f8ea44a9fcfeba04c8efb2a0e03ad81ad5548f90a3561b7c4a47faa5dd46cc",
+      "git_blob_sha": "bbfe3f24db9f1dda1baf69509bb6613a216ccea1"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "archive_path": "FinalApplication3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "archive_path": "FinalApplication3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "archive_path": "FinalApplication3/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "bytes": 1404,
+      "sha256": "dd00996198640ed28fbc09cdcd7a3807cf8707f3eb255b659634da3ca6a6ff01",
+      "git_blob_sha": "c209e78ecd372343283f4157dcfd918ec5165bb3"
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "archive_path": "FinalApplication3/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "bytes": 2898,
+      "sha256": "1ed73f5341a69d3b41c7e02e126803f50cc8c3284adf4bbb737f0c93577aef07",
+      "git_blob_sha": "b2dfe3d1ba5cf3ee31b3ecc1ced89044a1f3b7a9"
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "archive_path": "FinalApplication3/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "bytes": 982,
+      "sha256": "846219e6f72fe9a6c104ca8919cbee36a101e7d2ff8da9da67b689a5888f060d",
+      "git_blob_sha": "4f0f1d64e58ba64d180ce43ee13bf9a17835fbca"
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "archive_path": "FinalApplication3/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "bytes": 1772,
+      "sha256": "4e2c58b91de01130e6479e00cbbaaf6e77cd961dd2c8e303cf13cd077fa92632",
+      "git_blob_sha": "62b611da081676d42f6c3f78a2c91e7bcedddedb"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "archive_path": "FinalApplication3/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "bytes": 1900,
+      "sha256": "398340dad816fc9a6338cb151a8cf1e45b926f9bfb70628b24c4bd2523cc94d4",
+      "git_blob_sha": "948a3070fe34c611c42c0d3ad3013a0dce358be0"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "archive_path": "FinalApplication3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "bytes": 3918,
+      "sha256": "91b490aef86574901137f0a252272e1f1add99c1ad709e0696ed68929b88d261",
+      "git_blob_sha": "1b9a6956b3acdc11f40ce2bb3f6efbd845cc243f"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "archive_path": "FinalApplication3/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "bytes": 2884,
+      "sha256": "58ae87fa0c5b5d1562d27fd648d2c061553fe20e3ed570bde588162d01ea7a27",
+      "git_blob_sha": "28d4b77f9f036a47549d47db79c16788749dca10"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "archive_path": "FinalApplication3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "bytes": 5914,
+      "sha256": "3009fad079f5772f30ecd767f98924367fbe0f81c30048d672d4fda2d5ca7d12",
+      "git_blob_sha": "9287f5083623b375139afb391af71cc533a7dd37"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "archive_path": "FinalApplication3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "bytes": 3844,
+      "sha256": "f98fef5bc3bfe5b65692c40ad1cbae2bec4faf9f1b249c397626740db71b62d8",
+      "git_blob_sha": "aa7d6427e6fa1074b79ccd52ef67ac15c5637e85"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "archive_path": "FinalApplication3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "bytes": 7778,
+      "sha256": "5faf033745c8c882c43bb1b372d4e4a5890caec63d9892a2e756c954108b85dc",
+      "git_blob_sha": "9126ae37cbc3587421d6889eadd1d91fbf1994d4"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "archive_path": "FinalApplication3/app/src/main/res/values/colors.xml",
+      "bytes": 271,
+      "sha256": "5aa21ce53307cc7de1d4ccb52e3d05e82a91dc09b09641739deda7aaea7d6583",
+      "git_blob_sha": "33a7a1d4ebb49bf3572406216a5f73e6c01596bc"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "archive_path": "FinalApplication3/app/src/main/res/values/strings.xml",
+      "bytes": 81,
+      "sha256": "8b7387ecdc4e89d22f413a1d77bd12204c02329121e6481f4cef3fec7b75e4b1",
+      "git_blob_sha": "5075af8499f8651a14259d3905cf27a16ffadf95"
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "archive_path": "FinalApplication3/app/src/main/res/values/themes.xml",
+      "bytes": 423,
+      "sha256": "21b1b4c29f69097e55e315e51aea1ae75eccf75b14b78ea9774ae178789eb7e4",
+      "git_blob_sha": "3161a68cb4c0ef8a60212c654f605280a16adcfc"
+    },
+    {
+      "path": "app/src/main/res/values-night/themes.xml",
+      "archive_path": "FinalApplication3/app/src/main/res/values-night/themes.xml",
+      "bytes": 337,
+      "sha256": "49a9443f71c206b729a9f1a81039641bd7428db6687e9247834f70da0ec2ef72",
+      "git_blob_sha": "07568630f6d6e544963c180209450f1b96a631e6"
+    },
+    {
+      "path": "app/src/main/res/xml/backup_rules.xml",
+      "archive_path": "FinalApplication3/app/src/main/res/xml/backup_rules.xml",
+      "bytes": 478,
+      "sha256": "9f7e4c84c8fd2c81478d15962383f47cc6ff55d62abcd40c8ffa6fc08a8c35b7",
+      "git_blob_sha": "fa0f996d2c2a6bdd11f5371de4268c8389d6c720"
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "archive_path": "FinalApplication3/app/src/main/res/xml/data_extraction_rules.xml",
+      "bytes": 551,
+      "sha256": "cb1fc47ab4a984530ed60e0e6ee638929c3038290e7e7e0b4b03a3a30fbe7381",
+      "git_blob_sha": "9ee9997b0b4726e57c27b2f7b21462b604ff8a88"
+    },
+    {
+      "path": "app/src/test/java/com/example/finalapplication3/ExampleUnitTest.kt",
+      "archive_path": "FinalApplication3/app/src/test/java/com/example/finalapplication3/ExampleUnitTest.kt",
+      "bytes": 353,
+      "sha256": "cae88205711a8e87103bb652bf96b068fc3f46eaf9b0e9cc422b6fabb49d3602",
+      "git_blob_sha": "236e1777466e04852efdf20a181b04fb965408b9"
+    },
+    {
+      "path": "build.gradle.kts",
+      "archive_path": "FinalApplication3/build.gradle.kts",
+      "bytes": 218,
+      "sha256": "6ad44a57f5d546a748417bb5da689c932e40c8478bb5c66cfaef35d42400cd82",
+      "git_blob_sha": "922f551105e1b8c176391b38c9436d45f172b546"
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "archive_path": "FinalApplication3/gradle/libs.versions.toml",
+      "bytes": 1191,
+      "sha256": "f2b94b4960460d7adb01d30d55cc2b325987954b75a388872062884ebca09c3b",
+      "git_blob_sha": "df613bf3a152e20ed6bd876bca6ac4b3b4acee25"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "archive_path": "FinalApplication3/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 59203,
+      "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+      "git_blob_sha": "e708b1c023ec8b20f512888fe07c5bd3ff77bb8f"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "archive_path": "FinalApplication3/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 239,
+      "sha256": "4375f545ad8ab641c303d7a0dee79f7df003453be3f8836e9a171c9838d1cc3a",
+      "git_blob_sha": "b9b795d3ed4bb96e18d44644bcdd1a14bf704c1f"
+    },
+    {
+      "path": "gradle.properties",
+      "archive_path": "FinalApplication3/gradle.properties",
+      "bytes": 1346,
+      "sha256": "51e4b5a131eb01b1cdeb2f6f26aaba69d367a4a9d4ccd10c6d6f6d12fd545b66",
+      "git_blob_sha": "20e2a01520742aff4ec9ce578ed4fe5f3a76fe77"
+    },
+    {
+      "path": "gradlew",
+      "archive_path": "FinalApplication3/gradlew",
+      "bytes": 5766,
+      "sha256": "63135287117a1e6d12c84580f1f49c61d1ba02218ecd28660605e97f976e7d65",
+      "git_blob_sha": "4f906e0c811fc9e230eb44819f509cd0627f2600"
+    },
+    {
+      "path": "gradlew.bat",
+      "archive_path": "FinalApplication3/gradlew.bat",
+      "bytes": 2763,
+      "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+      "git_blob_sha": "ac1b06f93825db68fb0c0b5150917f340eaa5d02"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "archive_path": "FinalApplication3/settings.gradle.kts",
+      "bytes": 544,
+      "sha256": "f29ff1aeb886a9e30ecb9eda4a4ccb28915e1bc592b9f28885c5448c2d10adf7",
+      "git_blob_sha": "d8f892bd4c5cedaac163f76c43a35d43e62bb850"
+    }
+  ],
+  "different_from_main_project": [
+    "app/src/main/java/com/example/finalapplication3/MainActivity.kt",
+    "app/src/main/java/com/example/finalapplication3/MainActivity2.kt",
+    "app/src/main/java/com/example/finalapplication3/MainActivity3.kt",
+    "app/src/main/java/com/example/finalapplication3/MyGLRenderer.kt",
+    "app/src/main/java/com/example/finalapplication3/MyGLSurfaceView.kt",
+    "app/src/main/java/com/example/finalapplication3/UnitCube.kt",
+    "app/src/main/res/layout/activity_main.xml",
+    "app/src/main/res/values/colors.xml",
+    "app/src/main/res/values/themes.xml",
+    "app/src/main/res/values-night/themes.xml"
+  ]
+}

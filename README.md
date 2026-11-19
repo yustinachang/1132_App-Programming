@@ -27,3 +27,7 @@ ClueCube 操作演示實錄 [Youtube Demo](https://youtu.be/31w0gicTVMQ)
 ## 版本與素材
 
 本庫由原課程備份拆分整理，保留程式、資源與文件的來源內容。Android 建置產物、個人 SDK 路徑與簽章金鑰不屬於上傳範圍。團隊與第三方素材依原有權利使用，未新增統一授權；此次整理未重新完成 Android 建置或實機操作測試。
+
+## 另一份壓縮檔版本
+
+[FinalApplication3 壓縮檔來源版本](prototypes/FinalApplication3-zip-version) 保留本機 ZIP 內的完整來源，其中 10 份檔案與主要專案版本不同。
