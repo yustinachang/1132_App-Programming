@@ -1,0 +1,2722 @@
+{
+  "schema_version": 1,
+  "project": "1132_App-Programming",
+  "files": [
+    {
+      "path": "Final_Project/ClueCube/.gitignore",
+      "source_path": "ClueCube/.gitignore",
+      "bytes": 225,
+      "sha256": "703238443066325af08e3868d1e4b571a633baf68fcc93e323f0066999a97e1b",
+      "git_blob_sha": "aa724b77071afcbd9bb398053e05adaf7ac9405a"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/.gitignore",
+      "source_path": "ClueCube/app/.gitignore",
+      "bytes": 6,
+      "sha256": "5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4",
+      "git_blob_sha": "42afabfd2abebf31384ca7797186a27a4b7dbee8"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/build.gradle.kts",
+      "source_path": "ClueCube/app/build.gradle.kts",
+      "bytes": 1234,
+      "sha256": "8a328e319a39e24dcacd9fda1ab6e3afedb43b774179634cdef347f5cc35cfa9",
+      "git_blob_sha": "8b43534f2029598e063fa99afd26a35098aa54e6"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/proguard-rules.pro",
+      "source_path": "ClueCube/app/proguard-rules.pro",
+      "bytes": 750,
+      "sha256": "56fd960cf225f6ca40f982b13a5dbb0d8bc3dfde13ff76422825c6070d0a1890",
+      "git_blob_sha": "481bb434814107eb79d7a30b676d344b0df2f8ce"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/androidTest/java/com/example/finalapplication3/ExampleInstrumentedTest.kt",
+      "source_path": "ClueCube/app/src/androidTest/java/com/example/finalapplication3/ExampleInstrumentedTest.kt",
+      "bytes": 685,
+      "sha256": "94fdd70aef5361a087e6fa2dcca44be9a6b9fb24a86edb9787ec42912d271103",
+      "git_blob_sha": "86897706c25710ac995d54a88aa0dde377fe1049"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/AndroidManifest.xml",
+      "source_path": "ClueCube/app/src/main/AndroidManifest.xml",
+      "bytes": 1172,
+      "sha256": "ca07d80448ee20408f4925fb1b9ef017a879be890ec27175334e545c7961cb5d",
+      "git_blob_sha": "324d8e8388b2d102d5304f0af494d8f18e216c16"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/java/com/example/finalapplication3/CellGrid.kt",
+      "source_path": "ClueCube/app/src/main/java/com/example/finalapplication3/CellGrid.kt",
+      "bytes": 3057,
+      "sha256": "5e538f939d951ea75831964fd51f6f2fb48a7fdc5fbe593ea104b68018532fe0",
+      "git_blob_sha": "280f41a03614450c95bbb78e8eb8b69a35945fa1"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/java/com/example/finalapplication3/CubeGrid.kt",
+      "source_path": "ClueCube/app/src/main/java/com/example/finalapplication3/CubeGrid.kt",
+      "bytes": 2988,
+      "sha256": "f02b4aa977f8467a4352984c2ac0115d3b46dc2a4a667ef8d04589020a934036",
+      "git_blob_sha": "898899e171fece82787cdb03bd9e6ce07e0cfba7"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/java/com/example/finalapplication3/MainActivity.kt",
+      "source_path": "ClueCube/app/src/main/java/com/example/finalapplication3/MainActivity.kt",
+      "bytes": 1508,
+      "sha256": "9458b8d6abdefed49e0c6eebfcd959e30f0f3b9c132a345310c4756c78886756",
+      "git_blob_sha": "00d59126623a5a32d78800fe4d72e86eacac0894"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/java/com/example/finalapplication3/MainActivity2.kt",
+      "source_path": "ClueCube/app/src/main/java/com/example/finalapplication3/MainActivity2.kt",
+      "bytes": 6038,
+      "sha256": "c66f7b57808e860ba01477183de929161a7c41b3d40a716e37f2325748457cf6",
+      "git_blob_sha": "0e3383c7f51a0586c323421ffccf87d4529e0870"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/java/com/example/finalapplication3/MainActivity3.kt",
+      "source_path": "ClueCube/app/src/main/java/com/example/finalapplication3/MainActivity3.kt",
+      "bytes": 5365,
+      "sha256": "0a94bdeb9786d1e8471763c8ef05119c525ea161c2c6d0614acd41abad9c4140",
+      "git_blob_sha": "e98c066b611ad6d840bd6dc86ddac217081c44da"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/java/com/example/finalapplication3/MyGLRenderer.kt",
+      "source_path": "ClueCube/app/src/main/java/com/example/finalapplication3/MyGLRenderer.kt",
+      "bytes": 6121,
+      "sha256": "46aabb1b7d307d34f4886145bf358584c05559c3f255d3909977fa31c77ac3ca",
+      "git_blob_sha": "cd38f7f585e46c936e0dfde1d245783dff672ec3"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/java/com/example/finalapplication3/MyGLSurfaceView.kt",
+      "source_path": "ClueCube/app/src/main/java/com/example/finalapplication3/MyGLSurfaceView.kt",
+      "bytes": 3289,
+      "sha256": "b9df144e2f9632a69204130ad08a25848d1d8531945655838264a09086f4d1fc",
+      "git_blob_sha": "3fe54c260434d355afaae9f2b7a1a0f31648e296"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/java/com/example/finalapplication3/OrthographicViewGenerator.kt",
+      "source_path": "ClueCube/app/src/main/java/com/example/finalapplication3/OrthographicViewGenerator.kt",
+      "bytes": 2385,
+      "sha256": "102ed642931a2bf645ec1378c296e9d00a642a893fb283c561b66aa0a0a7468c",
+      "git_blob_sha": "2e9d749bcad0329f9c1f209df9992049842d817b"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/java/com/example/finalapplication3/UnitCube.kt",
+      "source_path": "ClueCube/app/src/main/java/com/example/finalapplication3/UnitCube.kt",
+      "bytes": 5179,
+      "sha256": "4e2f6f60811dcf16f2dd321eba147b56e5ea51bd81c6804f6f6a43d8fc4ef457",
+      "git_blob_sha": "be0331473b80b419d43075b222318dec278e2e8e"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/java/com/example/finalapplication3/funtion.kt",
+      "source_path": "ClueCube/app/src/main/java/com/example/finalapplication3/funtion.kt",
+      "bytes": 874,
+      "sha256": "e7d77af666912dbeaeb66c5826b3a71be9ef582fe3ae9970789c624ffa08cd0c",
+      "git_blob_sha": "16cc9cfd5e7fa6e2b85d9bc0bf6e8fe9c03582c0"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/drawable/cube_1.png",
+      "source_path": "ClueCube/app/src/main/res/drawable/cube_1.png",
+      "bytes": 6558,
+      "sha256": "d640371070de38998f415d95a85bb50f3a807a7dfe33921a4371a511d70d9bd0",
+      "git_blob_sha": "eba0b717f4a74e0feead845b443a1c8f197bb6c7"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/drawable/cube_2.png",
+      "source_path": "ClueCube/app/src/main/res/drawable/cube_2.png",
+      "bytes": 6567,
+      "sha256": "7fece411138c92b9271cef0e17659fbbde4f2035a487d5914790c1d9765e3c41",
+      "git_blob_sha": "0278256ca875e4fbd0b2dd1fe2bcbc26337f5788"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/drawable/cube_3.png",
+      "source_path": "ClueCube/app/src/main/res/drawable/cube_3.png",
+      "bytes": 6521,
+      "sha256": "70ee3adf0d948d9e1c6d2c8fc4a1291293d0102647904fff73b8faadb826db0d",
+      "git_blob_sha": "0756fbb72e53c82243c7c15bdfef4859e9e92ac8"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/drawable/cube_3d.png",
+      "source_path": "ClueCube/app/src/main/res/drawable/cube_3d.png",
+      "bytes": 14003,
+      "sha256": "22f1342ae16686477d68865d20be94b42911915883088a3e26c3b98a5e99046c",
+      "git_blob_sha": "cb630a66ecedf85c2fd239dda11acd436235e699"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/drawable/cube_4.png",
+      "source_path": "ClueCube/app/src/main/res/drawable/cube_4.png",
+      "bytes": 6646,
+      "sha256": "65c7a58133bcd678c39d5431027c792a70592d4a3fc35dd9162db1abf95a852e",
+      "git_blob_sha": "b762f4ed071d80ddaf40c675fd4228be3d171dfa"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/drawable/cube_5.png",
+      "source_path": "ClueCube/app/src/main/res/drawable/cube_5.png",
+      "bytes": 6466,
+      "sha256": "59f34c3161abc0a3c258ec08221f4d54c4a5f34a2086c2bb56901c4a8e8c10ba",
+      "git_blob_sha": "b7ffd076f21157170e11822c8768fa1b7cf30310"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/drawable/ic_launcher_background.xml",
+      "source_path": "ClueCube/app/src/main/res/drawable/ic_launcher_background.xml",
+      "bytes": 5606,
+      "sha256": "ed423c73a6f40a4d2909f0901e60527b3a807cd59e1b5593bcaae1808b1c6321",
+      "git_blob_sha": "07d5da9cbf141911847041df5d7b87f0dd5ef9d4"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "source_path": "ClueCube/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "bytes": 1702,
+      "sha256": "01d1a6a6c1234eb7fe270d097eb283d72b9c95ae5118886f1b6573aad280f1f7",
+      "git_blob_sha": "2b068d11462a4b96669193de13a711a3a36220a0"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/drawable/ic_unknown.png",
+      "source_path": "ClueCube/app/src/main/res/drawable/ic_unknown.png",
+      "bytes": 585,
+      "sha256": "d130453eeeab8cf1bdd222a36247be636f7666b473985a9a063b95e451e7b999",
+      "git_blob_sha": "1bf5bd801cdcae0404a16cccb460918996ed5084"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/layout/activity_main.xml",
+      "source_path": "ClueCube/app/src/main/res/layout/activity_main.xml",
+      "bytes": 2113,
+      "sha256": "6ca21c2e2eeb10140fdf1df4f4ffe6d4a39c00e4b58a918d19c57c15693e9603",
+      "git_blob_sha": "6a8f40e6290801690efd9312bcef3f1d8d59a02e"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/layout/activity_main2.xml",
+      "source_path": "ClueCube/app/src/main/res/layout/activity_main2.xml",
+      "bytes": 2875,
+      "sha256": "b9f335ef4a0a6fd8e6dbf254c2bc70fce02439519781dfc1762e2a0294c28f02",
+      "git_blob_sha": "8914eb76a190ca81c3c82c134e8582c25defaa03"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/layout/activity_main3.xml",
+      "source_path": "ClueCube/app/src/main/res/layout/activity_main3.xml",
+      "bytes": 4771,
+      "sha256": "a2f8ea44a9fcfeba04c8efb2a0e03ad81ad5548f90a3561b7c4a47faa5dd46cc",
+      "git_blob_sha": "bbfe3f24db9f1dda1baf69509bb6613a216ccea1"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/layout/dialog_picker.xml",
+      "source_path": "ClueCube/app/src/main/res/layout/dialog_picker.xml",
+      "bytes": 850,
+      "sha256": "482d79c1eac5d507eba4582ed45b4906e3947255bdcf9fcddaf771d59e2e97df",
+      "git_blob_sha": "611abeb3a4d6fc63e0e381808c0bed28ce1e5e00"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/layout/item_option.xml",
+      "source_path": "ClueCube/app/src/main/res/layout/item_option.xml",
+      "bytes": 326,
+      "sha256": "76c50a75516d78d6dc55b0fc79f3a3e9a4ba49c4f068772babd55bbf1d9693f3",
+      "git_blob_sha": "337386236c862b6c8c0f8c83b4ff9db50b69a8c7"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "source_path": "ClueCube/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "source_path": "ClueCube/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "source_path": "ClueCube/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "bytes": 1404,
+      "sha256": "dd00996198640ed28fbc09cdcd7a3807cf8707f3eb255b659634da3ca6a6ff01",
+      "git_blob_sha": "c209e78ecd372343283f4157dcfd918ec5165bb3"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "source_path": "ClueCube/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "bytes": 2898,
+      "sha256": "1ed73f5341a69d3b41c7e02e126803f50cc8c3284adf4bbb737f0c93577aef07",
+      "git_blob_sha": "b2dfe3d1ba5cf3ee31b3ecc1ced89044a1f3b7a9"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "source_path": "ClueCube/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "bytes": 982,
+      "sha256": "846219e6f72fe9a6c104ca8919cbee36a101e7d2ff8da9da67b689a5888f060d",
+      "git_blob_sha": "4f0f1d64e58ba64d180ce43ee13bf9a17835fbca"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "source_path": "ClueCube/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "bytes": 1772,
+      "sha256": "4e2c58b91de01130e6479e00cbbaaf6e77cd961dd2c8e303cf13cd077fa92632",
+      "git_blob_sha": "62b611da081676d42f6c3f78a2c91e7bcedddedb"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "source_path": "ClueCube/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "bytes": 1900,
+      "sha256": "398340dad816fc9a6338cb151a8cf1e45b926f9bfb70628b24c4bd2523cc94d4",
+      "git_blob_sha": "948a3070fe34c611c42c0d3ad3013a0dce358be0"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "source_path": "ClueCube/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "bytes": 3918,
+      "sha256": "91b490aef86574901137f0a252272e1f1add99c1ad709e0696ed68929b88d261",
+      "git_blob_sha": "1b9a6956b3acdc11f40ce2bb3f6efbd845cc243f"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "source_path": "ClueCube/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "bytes": 2884,
+      "sha256": "58ae87fa0c5b5d1562d27fd648d2c061553fe20e3ed570bde588162d01ea7a27",
+      "git_blob_sha": "28d4b77f9f036a47549d47db79c16788749dca10"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "source_path": "ClueCube/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "bytes": 5914,
+      "sha256": "3009fad079f5772f30ecd767f98924367fbe0f81c30048d672d4fda2d5ca7d12",
+      "git_blob_sha": "9287f5083623b375139afb391af71cc533a7dd37"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "source_path": "ClueCube/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "bytes": 3844,
+      "sha256": "f98fef5bc3bfe5b65692c40ad1cbae2bec4faf9f1b249c397626740db71b62d8",
+      "git_blob_sha": "aa7d6427e6fa1074b79ccd52ef67ac15c5637e85"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "source_path": "ClueCube/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "bytes": 7778,
+      "sha256": "5faf033745c8c882c43bb1b372d4e4a5890caec63d9892a2e756c954108b85dc",
+      "git_blob_sha": "9126ae37cbc3587421d6889eadd1d91fbf1994d4"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/values-night/themes.xml",
+      "source_path": "ClueCube/app/src/main/res/values-night/themes.xml",
+      "bytes": 544,
+      "sha256": "402971e6b3bd4b4135f40e6c8bdff4c140dee2c829f3d1b78d1cdc1c92fcc2e9",
+      "git_blob_sha": "3899fa4d917c59db724ab488461e247b5a224c91"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/values/arrays.xml",
+      "source_path": "ClueCube/app/src/main/res/values/arrays.xml",
+      "bytes": 265,
+      "sha256": "2cc0005eceff2fb986d26c62dee45d23d15cb7ff8e15e3604d9ac3ef58a986b5",
+      "git_blob_sha": "640389dbdc23a765123cb4c48476cdbc6d88f03d"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/values/colors.xml",
+      "source_path": "ClueCube/app/src/main/res/values/colors.xml",
+      "bytes": 765,
+      "sha256": "31a90357c82a078c907ee6c5adb572492accf559119beabed88d20b005468520",
+      "git_blob_sha": "6669f4313a7ae3bb1db37d0476574c43d17a7a40"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/values/strings.xml",
+      "source_path": "ClueCube/app/src/main/res/values/strings.xml",
+      "bytes": 81,
+      "sha256": "8b7387ecdc4e89d22f413a1d77bd12204c02329121e6481f4cef3fec7b75e4b1",
+      "git_blob_sha": "5075af8499f8651a14259d3905cf27a16ffadf95"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/values/themes.xml",
+      "source_path": "ClueCube/app/src/main/res/values/themes.xml",
+      "bytes": 633,
+      "sha256": "3ea7e84a84436d74f0d64f6dfba8d5887a69b3b9f404b0edabd99d8e7304cb66",
+      "git_blob_sha": "3c98a4e8bad0de708519e322b3be4b63b8765b96"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/xml/backup_rules.xml",
+      "source_path": "ClueCube/app/src/main/res/xml/backup_rules.xml",
+      "bytes": 478,
+      "sha256": "9f7e4c84c8fd2c81478d15962383f47cc6ff55d62abcd40c8ffa6fc08a8c35b7",
+      "git_blob_sha": "fa0f996d2c2a6bdd11f5371de4268c8389d6c720"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/main/res/xml/data_extraction_rules.xml",
+      "source_path": "ClueCube/app/src/main/res/xml/data_extraction_rules.xml",
+      "bytes": 551,
+      "sha256": "cb1fc47ab4a984530ed60e0e6ee638929c3038290e7e7e0b4b03a3a30fbe7381",
+      "git_blob_sha": "9ee9997b0b4726e57c27b2f7b21462b604ff8a88"
+    },
+    {
+      "path": "Final_Project/ClueCube/app/src/test/java/com/example/finalapplication3/ExampleUnitTest.kt",
+      "source_path": "ClueCube/app/src/test/java/com/example/finalapplication3/ExampleUnitTest.kt",
+      "bytes": 353,
+      "sha256": "cae88205711a8e87103bb652bf96b068fc3f46eaf9b0e9cc422b6fabb49d3602",
+      "git_blob_sha": "236e1777466e04852efdf20a181b04fb965408b9"
+    },
+    {
+      "path": "Final_Project/ClueCube/build.gradle.kts",
+      "source_path": "ClueCube/build.gradle.kts",
+      "bytes": 218,
+      "sha256": "6ad44a57f5d546a748417bb5da689c932e40c8478bb5c66cfaef35d42400cd82",
+      "git_blob_sha": "922f551105e1b8c176391b38c9436d45f172b546"
+    },
+    {
+      "path": "Final_Project/ClueCube/gradle.properties",
+      "source_path": "ClueCube/gradle.properties",
+      "bytes": 1346,
+      "sha256": "51e4b5a131eb01b1cdeb2f6f26aaba69d367a4a9d4ccd10c6d6f6d12fd545b66",
+      "git_blob_sha": "20e2a01520742aff4ec9ce578ed4fe5f3a76fe77"
+    },
+    {
+      "path": "Final_Project/ClueCube/gradle/libs.versions.toml",
+      "source_path": "ClueCube/gradle/libs.versions.toml",
+      "bytes": 1191,
+      "sha256": "f2b94b4960460d7adb01d30d55cc2b325987954b75a388872062884ebca09c3b",
+      "git_blob_sha": "df613bf3a152e20ed6bd876bca6ac4b3b4acee25"
+    },
+    {
+      "path": "Final_Project/ClueCube/gradle/wrapper/gradle-wrapper.jar",
+      "source_path": "ClueCube/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 59203,
+      "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+      "git_blob_sha": "e708b1c023ec8b20f512888fe07c5bd3ff77bb8f"
+    },
+    {
+      "path": "Final_Project/ClueCube/gradle/wrapper/gradle-wrapper.properties",
+      "source_path": "ClueCube/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 239,
+      "sha256": "4375f545ad8ab641c303d7a0dee79f7df003453be3f8836e9a171c9838d1cc3a",
+      "git_blob_sha": "b9b795d3ed4bb96e18d44644bcdd1a14bf704c1f"
+    },
+    {
+      "path": "Final_Project/ClueCube/gradlew",
+      "source_path": "ClueCube/gradlew",
+      "bytes": 5766,
+      "sha256": "63135287117a1e6d12c84580f1f49c61d1ba02218ecd28660605e97f976e7d65",
+      "git_blob_sha": "4f906e0c811fc9e230eb44819f509cd0627f2600"
+    },
+    {
+      "path": "Final_Project/ClueCube/gradlew.bat",
+      "source_path": "ClueCube/gradlew.bat",
+      "bytes": 2763,
+      "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+      "git_blob_sha": "ac1b06f93825db68fb0c0b5150917f340eaa5d02"
+    },
+    {
+      "path": "Final_Project/ClueCube/settings.gradle.kts",
+      "source_path": "ClueCube/settings.gradle.kts",
+      "bytes": 544,
+      "sha256": "f29ff1aeb886a9e30ecb9eda4a4ccb28915e1bc592b9f28885c5448c2d10adf7",
+      "git_blob_sha": "d8f892bd4c5cedaac163f76c43a35d43e62bb850"
+    },
+    {
+      "path": "Practice/MidApplication/.gitignore",
+      "source_path": "course-exercises/MidApplication/.gitignore",
+      "bytes": 225,
+      "sha256": "703238443066325af08e3868d1e4b571a633baf68fcc93e323f0066999a97e1b",
+      "git_blob_sha": "aa724b77071afcbd9bb398053e05adaf7ac9405a"
+    },
+    {
+      "path": "Practice/MidApplication/app/.gitignore",
+      "source_path": "course-exercises/MidApplication/app/.gitignore",
+      "bytes": 6,
+      "sha256": "5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4",
+      "git_blob_sha": "42afabfd2abebf31384ca7797186a27a4b7dbee8"
+    },
+    {
+      "path": "Practice/MidApplication/app/build.gradle.kts",
+      "source_path": "course-exercises/MidApplication/app/build.gradle.kts",
+      "bytes": 1228,
+      "sha256": "59d7162c08a7885f5d10457d7beb14079630114c32923041d101f444a183608e",
+      "git_blob_sha": "a3c68e3f8e1c250962284cefcbb81392cceb3249"
+    },
+    {
+      "path": "Practice/MidApplication/app/proguard-rules.pro",
+      "source_path": "course-exercises/MidApplication/app/proguard-rules.pro",
+      "bytes": 750,
+      "sha256": "56fd960cf225f6ca40f982b13a5dbb0d8bc3dfde13ff76422825c6070d0a1890",
+      "git_blob_sha": "481bb434814107eb79d7a30b676d344b0df2f8ce"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/androidTest/java/com/example/midapplication/ExampleInstrumentedTest.kt",
+      "source_path": "course-exercises/MidApplication/app/src/androidTest/java/com/example/midapplication/ExampleInstrumentedTest.kt",
+      "bytes": 679,
+      "sha256": "2b303cf1820bfd5ddb45b5118beb445afa8cc195857fb4be4c20f83a7b409ab0",
+      "git_blob_sha": "d2cbcf7262f78337b4587f75a25e9979447e3b36"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/AndroidManifest.xml",
+      "source_path": "course-exercises/MidApplication/app/src/main/AndroidManifest.xml",
+      "bytes": 1066,
+      "sha256": "d2f93c1d8da993076acd7a7b11d60029a060f18ef56578eec4d7b0a4f9fdaff5",
+      "git_blob_sha": "9eb44119533a7c0c765094979a00cc1dbdf2823d"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/java/com/example/midapplication/MainActivity.kt",
+      "source_path": "course-exercises/MidApplication/app/src/main/java/com/example/midapplication/MainActivity.kt",
+      "bytes": 756,
+      "sha256": "c4a0a1259e5fd1a0eeffe71a4030e3c177c030446d1745e05708ccd3f7615d51",
+      "git_blob_sha": "870da7a53e2512f694b95e3daf383096e8bb2d4c"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/java/com/example/midapplication/MainActivity2.kt",
+      "source_path": "course-exercises/MidApplication/app/src/main/java/com/example/midapplication/MainActivity2.kt",
+      "bytes": 758,
+      "sha256": "1e8cf0c51dd9d38ee7ed84e6fac81ec9b98d8012667ee423168f66ecf8bb2c61",
+      "git_blob_sha": "9bd2191bfff31fc396764f283d62fffd47820352"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/drawable/ic_launcher_background.xml",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/drawable/ic_launcher_background.xml",
+      "bytes": 5606,
+      "sha256": "ed423c73a6f40a4d2909f0901e60527b3a807cd59e1b5593bcaae1808b1c6321",
+      "git_blob_sha": "07d5da9cbf141911847041df5d7b87f0dd5ef9d4"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "bytes": 1702,
+      "sha256": "01d1a6a6c1234eb7fe270d097eb283d72b9c95ae5118886f1b6573aad280f1f7",
+      "git_blob_sha": "2b068d11462a4b96669193de13a711a3a36220a0"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/layout/activity_main.xml",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/layout/activity_main.xml",
+      "bytes": 1921,
+      "sha256": "b321455a067a1e41f491eb5d6587f25ca8162e170259228e0587795f2036ffbc",
+      "git_blob_sha": "8aa6d17eaa67b7f8dccbf55a87f9b929cf578133"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/layout/activity_main2.xml",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/layout/activity_main2.xml",
+      "bytes": 453,
+      "sha256": "a0cd23be953f8baac49dc93fd1d66942cb1e664fd614b613c8f4602d46f9469f",
+      "git_blob_sha": "de99ca3d80122f87409217fabe92e1fcb9fc706e"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "bytes": 1404,
+      "sha256": "dd00996198640ed28fbc09cdcd7a3807cf8707f3eb255b659634da3ca6a6ff01",
+      "git_blob_sha": "c209e78ecd372343283f4157dcfd918ec5165bb3"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "bytes": 2898,
+      "sha256": "1ed73f5341a69d3b41c7e02e126803f50cc8c3284adf4bbb737f0c93577aef07",
+      "git_blob_sha": "b2dfe3d1ba5cf3ee31b3ecc1ced89044a1f3b7a9"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "bytes": 982,
+      "sha256": "846219e6f72fe9a6c104ca8919cbee36a101e7d2ff8da9da67b689a5888f060d",
+      "git_blob_sha": "4f0f1d64e58ba64d180ce43ee13bf9a17835fbca"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "bytes": 1772,
+      "sha256": "4e2c58b91de01130e6479e00cbbaaf6e77cd961dd2c8e303cf13cd077fa92632",
+      "git_blob_sha": "62b611da081676d42f6c3f78a2c91e7bcedddedb"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "bytes": 1900,
+      "sha256": "398340dad816fc9a6338cb151a8cf1e45b926f9bfb70628b24c4bd2523cc94d4",
+      "git_blob_sha": "948a3070fe34c611c42c0d3ad3013a0dce358be0"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "bytes": 3918,
+      "sha256": "91b490aef86574901137f0a252272e1f1add99c1ad709e0696ed68929b88d261",
+      "git_blob_sha": "1b9a6956b3acdc11f40ce2bb3f6efbd845cc243f"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "bytes": 2884,
+      "sha256": "58ae87fa0c5b5d1562d27fd648d2c061553fe20e3ed570bde588162d01ea7a27",
+      "git_blob_sha": "28d4b77f9f036a47549d47db79c16788749dca10"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "bytes": 5914,
+      "sha256": "3009fad079f5772f30ecd767f98924367fbe0f81c30048d672d4fda2d5ca7d12",
+      "git_blob_sha": "9287f5083623b375139afb391af71cc533a7dd37"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "bytes": 3844,
+      "sha256": "f98fef5bc3bfe5b65692c40ad1cbae2bec4faf9f1b249c397626740db71b62d8",
+      "git_blob_sha": "aa7d6427e6fa1074b79ccd52ef67ac15c5637e85"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "bytes": 7778,
+      "sha256": "5faf033745c8c882c43bb1b372d4e4a5890caec63d9892a2e756c954108b85dc",
+      "git_blob_sha": "9126ae37cbc3587421d6889eadd1d91fbf1994d4"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/values-night/themes.xml",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/values-night/themes.xml",
+      "bytes": 334,
+      "sha256": "32b7051945c47bcfe60be2c98ebd4f24f437b2014aa9fbc34415ed558a046f7d",
+      "git_blob_sha": "db41f8c763d7ac3f1ebebe3cdc7ddbc8b58fc281"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/values/colors.xml",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/values/colors.xml",
+      "bytes": 147,
+      "sha256": "efb70d7499549a57cea32b00e790ef0632cb0c95cdaeefd16903c8cd12c889e4",
+      "git_blob_sha": "c8524cd961d27b6695e755c6ef2d4d58cf38431e"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/values/strings.xml",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/values/strings.xml",
+      "bytes": 77,
+      "sha256": "35f3ea46f3da04eaaac9ab829ab79adc85a84de089e1234acfcb7c703dd0a235",
+      "git_blob_sha": "802e7a220a0c23105a3ac3c0f2fe0c59316e8650"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/values/themes.xml",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/values/themes.xml",
+      "bytes": 414,
+      "sha256": "e6547ec76ad0b042a2e0923c0ea53d42ceeffbfe5d4ebd03456af58f6dfbc0dc",
+      "git_blob_sha": "405ab9266be2506ede6a595de7b285d9c821c6ef"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/xml/backup_rules.xml",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/xml/backup_rules.xml",
+      "bytes": 478,
+      "sha256": "9f7e4c84c8fd2c81478d15962383f47cc6ff55d62abcd40c8ffa6fc08a8c35b7",
+      "git_blob_sha": "fa0f996d2c2a6bdd11f5371de4268c8389d6c720"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/main/res/xml/data_extraction_rules.xml",
+      "source_path": "course-exercises/MidApplication/app/src/main/res/xml/data_extraction_rules.xml",
+      "bytes": 551,
+      "sha256": "cb1fc47ab4a984530ed60e0e6ee638929c3038290e7e7e0b4b03a3a30fbe7381",
+      "git_blob_sha": "9ee9997b0b4726e57c27b2f7b21462b604ff8a88"
+    },
+    {
+      "path": "Practice/MidApplication/app/src/test/java/com/example/midapplication/ExampleUnitTest.kt",
+      "source_path": "course-exercises/MidApplication/app/src/test/java/com/example/midapplication/ExampleUnitTest.kt",
+      "bytes": 350,
+      "sha256": "c460e456cfd991c216f18e3de383ecb0df270530f973ca452b5295e882ca57c2",
+      "git_blob_sha": "734f59d9fcc6fe9d128e6b90f2deab5fe056290a"
+    },
+    {
+      "path": "Practice/MidApplication/build.gradle.kts",
+      "source_path": "course-exercises/MidApplication/build.gradle.kts",
+      "bytes": 218,
+      "sha256": "6ad44a57f5d546a748417bb5da689c932e40c8478bb5c66cfaef35d42400cd82",
+      "git_blob_sha": "922f551105e1b8c176391b38c9436d45f172b546"
+    },
+    {
+      "path": "Practice/MidApplication/gradle.properties",
+      "source_path": "course-exercises/MidApplication/gradle.properties",
+      "bytes": 1346,
+      "sha256": "51e4b5a131eb01b1cdeb2f6f26aaba69d367a4a9d4ccd10c6d6f6d12fd545b66",
+      "git_blob_sha": "20e2a01520742aff4ec9ce578ed4fe5f3a76fe77"
+    },
+    {
+      "path": "Practice/MidApplication/gradle/libs.versions.toml",
+      "source_path": "course-exercises/MidApplication/gradle/libs.versions.toml",
+      "bytes": 1191,
+      "sha256": "f2b94b4960460d7adb01d30d55cc2b325987954b75a388872062884ebca09c3b",
+      "git_blob_sha": "df613bf3a152e20ed6bd876bca6ac4b3b4acee25"
+    },
+    {
+      "path": "Practice/MidApplication/gradle/wrapper/gradle-wrapper.jar",
+      "source_path": "course-exercises/MidApplication/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 59203,
+      "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+      "git_blob_sha": "e708b1c023ec8b20f512888fe07c5bd3ff77bb8f"
+    },
+    {
+      "path": "Practice/MidApplication/gradle/wrapper/gradle-wrapper.properties",
+      "source_path": "course-exercises/MidApplication/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 239,
+      "sha256": "24fcd94d232fe95692870bdbc09c7026d89e544e9a38b6c78b1e0516f39428c5",
+      "git_blob_sha": "4ea0df40f33be715e618a4e034da114c2d1f3951"
+    },
+    {
+      "path": "Practice/MidApplication/gradlew",
+      "source_path": "course-exercises/MidApplication/gradlew",
+      "bytes": 5766,
+      "sha256": "63135287117a1e6d12c84580f1f49c61d1ba02218ecd28660605e97f976e7d65",
+      "git_blob_sha": "4f906e0c811fc9e230eb44819f509cd0627f2600"
+    },
+    {
+      "path": "Practice/MidApplication/gradlew.bat",
+      "source_path": "course-exercises/MidApplication/gradlew.bat",
+      "bytes": 2763,
+      "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+      "git_blob_sha": "ac1b06f93825db68fb0c0b5150917f340eaa5d02"
+    },
+    {
+      "path": "Practice/MidApplication/settings.gradle.kts",
+      "source_path": "course-exercises/MidApplication/settings.gradle.kts",
+      "bytes": 540,
+      "sha256": "21195403ca927854137d2fc4d3d46fa3cb4022c05a38ee921f247246efe50e3b",
+      "git_blob_sha": "742ad5a50e8247a6269eaf999251d02018f6e63c"
+    },
+    {
+      "path": "Practice/MyApplication/.gitignore",
+      "source_path": "course-exercises/MyApplication/.gitignore",
+      "bytes": 225,
+      "sha256": "703238443066325af08e3868d1e4b571a633baf68fcc93e323f0066999a97e1b",
+      "git_blob_sha": "aa724b77071afcbd9bb398053e05adaf7ac9405a"
+    },
+    {
+      "path": "Practice/MyApplication/app/.gitignore",
+      "source_path": "course-exercises/MyApplication/app/.gitignore",
+      "bytes": 6,
+      "sha256": "5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4",
+      "git_blob_sha": "42afabfd2abebf31384ca7797186a27a4b7dbee8"
+    },
+    {
+      "path": "Practice/MyApplication/app/build.gradle.kts",
+      "source_path": "course-exercises/MyApplication/app/build.gradle.kts",
+      "bytes": 1226,
+      "sha256": "5d53f6a3aa966aa2c543f86a786ea5256b8b56eaa6adaca3a8b825cc4c5ad44e",
+      "git_blob_sha": "9cf37f5f1a24a637243aeb6e717969730268d5ee"
+    },
+    {
+      "path": "Practice/MyApplication/app/proguard-rules.pro",
+      "source_path": "course-exercises/MyApplication/app/proguard-rules.pro",
+      "bytes": 750,
+      "sha256": "56fd960cf225f6ca40f982b13a5dbb0d8bc3dfde13ff76422825c6070d0a1890",
+      "git_blob_sha": "481bb434814107eb79d7a30b676d344b0df2f8ce"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt",
+      "source_path": "course-exercises/MyApplication/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt",
+      "bytes": 677,
+      "sha256": "1122041ffdc1030bbd0be90235660df6510082cbe12947153a310d32799da8bc",
+      "git_blob_sha": "e9283cf4d899da306f79b1656ac2ab1d21d6c792"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/AndroidManifest.xml",
+      "source_path": "course-exercises/MyApplication/app/src/main/AndroidManifest.xml",
+      "bytes": 962,
+      "sha256": "f1e585fa5a8c0b1a3a4c47515653b2d8b35a762b8748c3015fc03af74b84a21b",
+      "git_blob_sha": "9e44eaf5f9c568d0d6d1164de00a198d3da8e289"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/java/com/example/myapplication/FunctionDB.kt",
+      "source_path": "course-exercises/MyApplication/app/src/main/java/com/example/myapplication/FunctionDB.kt",
+      "bytes": 641,
+      "sha256": "a14dbe0ca1a7543f9d7f0057d01ee38724a7845534805990fa1068d26d27d7c5",
+      "git_blob_sha": "5b5adb8a9ce06fdb26bb4e4723b4dcb4e98f92a7"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.kt",
+      "source_path": "course-exercises/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.kt",
+      "bytes": 1646,
+      "sha256": "ca83304b86fb402bda4891ef335f4fb99ef042c33cbe679599b54c5c24b6f470",
+      "git_blob_sha": "3a0ca737a2e078333f299ae9e5a421e41daf99ac"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml",
+      "bytes": 5606,
+      "sha256": "ed423c73a6f40a4d2909f0901e60527b3a807cd59e1b5593bcaae1808b1c6321",
+      "git_blob_sha": "07d5da9cbf141911847041df5d7b87f0dd5ef9d4"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "bytes": 1702,
+      "sha256": "01d1a6a6c1234eb7fe270d097eb283d72b9c95ae5118886f1b6573aad280f1f7",
+      "git_blob_sha": "2b068d11462a4b96669193de13a711a3a36220a0"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/layout/activity_main.xml",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/layout/activity_main.xml",
+      "bytes": 2089,
+      "sha256": "0c67febb86d8bf7a590043d4874cb7685d8e0f38af07c96227faef9034ef67d7",
+      "git_blob_sha": "88ba2482a0ed9140af08309e3f1f9fa48c729cca"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "bytes": 1404,
+      "sha256": "dd00996198640ed28fbc09cdcd7a3807cf8707f3eb255b659634da3ca6a6ff01",
+      "git_blob_sha": "c209e78ecd372343283f4157dcfd918ec5165bb3"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "bytes": 2898,
+      "sha256": "1ed73f5341a69d3b41c7e02e126803f50cc8c3284adf4bbb737f0c93577aef07",
+      "git_blob_sha": "b2dfe3d1ba5cf3ee31b3ecc1ced89044a1f3b7a9"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "bytes": 982,
+      "sha256": "846219e6f72fe9a6c104ca8919cbee36a101e7d2ff8da9da67b689a5888f060d",
+      "git_blob_sha": "4f0f1d64e58ba64d180ce43ee13bf9a17835fbca"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "bytes": 1772,
+      "sha256": "4e2c58b91de01130e6479e00cbbaaf6e77cd961dd2c8e303cf13cd077fa92632",
+      "git_blob_sha": "62b611da081676d42f6c3f78a2c91e7bcedddedb"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "bytes": 1900,
+      "sha256": "398340dad816fc9a6338cb151a8cf1e45b926f9bfb70628b24c4bd2523cc94d4",
+      "git_blob_sha": "948a3070fe34c611c42c0d3ad3013a0dce358be0"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "bytes": 3918,
+      "sha256": "91b490aef86574901137f0a252272e1f1add99c1ad709e0696ed68929b88d261",
+      "git_blob_sha": "1b9a6956b3acdc11f40ce2bb3f6efbd845cc243f"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "bytes": 2884,
+      "sha256": "58ae87fa0c5b5d1562d27fd648d2c061553fe20e3ed570bde588162d01ea7a27",
+      "git_blob_sha": "28d4b77f9f036a47549d47db79c16788749dca10"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "bytes": 5914,
+      "sha256": "3009fad079f5772f30ecd767f98924367fbe0f81c30048d672d4fda2d5ca7d12",
+      "git_blob_sha": "9287f5083623b375139afb391af71cc533a7dd37"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "bytes": 3844,
+      "sha256": "f98fef5bc3bfe5b65692c40ad1cbae2bec4faf9f1b249c397626740db71b62d8",
+      "git_blob_sha": "aa7d6427e6fa1074b79ccd52ef67ac15c5637e85"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "bytes": 7778,
+      "sha256": "5faf033745c8c882c43bb1b372d4e4a5890caec63d9892a2e756c954108b85dc",
+      "git_blob_sha": "9126ae37cbc3587421d6889eadd1d91fbf1994d4"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/values-night/themes.xml",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/values-night/themes.xml",
+      "bytes": 333,
+      "sha256": "8874587db4914392bacd008e4c497301faa3f1453dd1c817a1246a89085fa759",
+      "git_blob_sha": "d25b0f2f61ec548c0334a453e602a4298a9e58af"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/values/colors.xml",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/values/colors.xml",
+      "bytes": 147,
+      "sha256": "efb70d7499549a57cea32b00e790ef0632cb0c95cdaeefd16903c8cd12c889e4",
+      "git_blob_sha": "c8524cd961d27b6695e755c6ef2d4d58cf38431e"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/values/strings.xml",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/values/strings.xml",
+      "bytes": 76,
+      "sha256": "22e88cca26de9e26e33916dce55a324dca54a842b197f191b3406f7e11a1ab90",
+      "git_blob_sha": "3de1a3968d8b34c920ca224de40811509c6625ed"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/values/themes.xml",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/values/themes.xml",
+      "bytes": 411,
+      "sha256": "cc09b0c73ddd9f4227b0ad3386b91a5de0ab34015e3d2a541536f43b1512f3bc",
+      "git_blob_sha": "d66ac09b2a42e15ad996e8284b9b5570ebeb56cf"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/xml/backup_rules.xml",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/xml/backup_rules.xml",
+      "bytes": 478,
+      "sha256": "9f7e4c84c8fd2c81478d15962383f47cc6ff55d62abcd40c8ffa6fc08a8c35b7",
+      "git_blob_sha": "fa0f996d2c2a6bdd11f5371de4268c8389d6c720"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/main/res/xml/data_extraction_rules.xml",
+      "source_path": "course-exercises/MyApplication/app/src/main/res/xml/data_extraction_rules.xml",
+      "bytes": 551,
+      "sha256": "cb1fc47ab4a984530ed60e0e6ee638929c3038290e7e7e0b4b03a3a30fbe7381",
+      "git_blob_sha": "9ee9997b0b4726e57c27b2f7b21462b604ff8a88"
+    },
+    {
+      "path": "Practice/MyApplication/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt",
+      "source_path": "course-exercises/MyApplication/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt",
+      "bytes": 349,
+      "sha256": "2aee0ee7720f585e05c82b4711b64b8b7d191406054a3042515c00e37487992e",
+      "git_blob_sha": "e500fb8bac0b908766a508785aef377626392bb1"
+    },
+    {
+      "path": "Practice/MyApplication/build.gradle.kts",
+      "source_path": "course-exercises/MyApplication/build.gradle.kts",
+      "bytes": 218,
+      "sha256": "6ad44a57f5d546a748417bb5da689c932e40c8478bb5c66cfaef35d42400cd82",
+      "git_blob_sha": "922f551105e1b8c176391b38c9436d45f172b546"
+    },
+    {
+      "path": "Practice/MyApplication/gradle.properties",
+      "source_path": "course-exercises/MyApplication/gradle.properties",
+      "bytes": 1346,
+      "sha256": "51e4b5a131eb01b1cdeb2f6f26aaba69d367a4a9d4ccd10c6d6f6d12fd545b66",
+      "git_blob_sha": "20e2a01520742aff4ec9ce578ed4fe5f3a76fe77"
+    },
+    {
+      "path": "Practice/MyApplication/gradle/libs.versions.toml",
+      "source_path": "course-exercises/MyApplication/gradle/libs.versions.toml",
+      "bytes": 1190,
+      "sha256": "c19d38b8b3401c802d8ad0aa351352185a35d2fee5e3066acc4dae1f729cc731",
+      "git_blob_sha": "5ddce8cb26388c18239e135cef711bcc803c1f81"
+    },
+    {
+      "path": "Practice/MyApplication/gradle/wrapper/gradle-wrapper.jar",
+      "source_path": "course-exercises/MyApplication/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 59203,
+      "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+      "git_blob_sha": "e708b1c023ec8b20f512888fe07c5bd3ff77bb8f"
+    },
+    {
+      "path": "Practice/MyApplication/gradle/wrapper/gradle-wrapper.properties",
+      "source_path": "course-exercises/MyApplication/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 239,
+      "sha256": "e30ea44839e46e88c58c1783452af684b5e34a4fee639a0d28e658d5a7a9bd90",
+      "git_blob_sha": "f8d828f60ed109338c5e8c013680b9fedec16212"
+    },
+    {
+      "path": "Practice/MyApplication/gradlew",
+      "source_path": "course-exercises/MyApplication/gradlew",
+      "bytes": 5766,
+      "sha256": "63135287117a1e6d12c84580f1f49c61d1ba02218ecd28660605e97f976e7d65",
+      "git_blob_sha": "4f906e0c811fc9e230eb44819f509cd0627f2600"
+    },
+    {
+      "path": "Practice/MyApplication/gradlew.bat",
+      "source_path": "course-exercises/MyApplication/gradlew.bat",
+      "bytes": 2763,
+      "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+      "git_blob_sha": "ac1b06f93825db68fb0c0b5150917f340eaa5d02"
+    },
+    {
+      "path": "Practice/MyApplication/settings.gradle.kts",
+      "source_path": "course-exercises/MyApplication/settings.gradle.kts",
+      "bytes": 538,
+      "sha256": "82e5f7bf80499d8ee74e8154aa6ba70424a0657e779153a6a5c77e73ecbee346",
+      "git_blob_sha": "5dc01897baab47e59edade0e8852810e5fc1d4c5"
+    },
+    {
+      "path": "Practice/MyApplication2/.gitignore",
+      "source_path": "course-exercises/MyApplication2/.gitignore",
+      "bytes": 225,
+      "sha256": "703238443066325af08e3868d1e4b571a633baf68fcc93e323f0066999a97e1b",
+      "git_blob_sha": "aa724b77071afcbd9bb398053e05adaf7ac9405a"
+    },
+    {
+      "path": "Practice/MyApplication2/app/.gitignore",
+      "source_path": "course-exercises/MyApplication2/app/.gitignore",
+      "bytes": 6,
+      "sha256": "5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4",
+      "git_blob_sha": "42afabfd2abebf31384ca7797186a27a4b7dbee8"
+    },
+    {
+      "path": "Practice/MyApplication2/app/build.gradle.kts",
+      "source_path": "course-exercises/MyApplication2/app/build.gradle.kts",
+      "bytes": 1226,
+      "sha256": "5d53f6a3aa966aa2c543f86a786ea5256b8b56eaa6adaca3a8b825cc4c5ad44e",
+      "git_blob_sha": "9cf37f5f1a24a637243aeb6e717969730268d5ee"
+    },
+    {
+      "path": "Practice/MyApplication2/app/proguard-rules.pro",
+      "source_path": "course-exercises/MyApplication2/app/proguard-rules.pro",
+      "bytes": 750,
+      "sha256": "56fd960cf225f6ca40f982b13a5dbb0d8bc3dfde13ff76422825c6070d0a1890",
+      "git_blob_sha": "481bb434814107eb79d7a30b676d344b0df2f8ce"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt",
+      "source_path": "course-exercises/MyApplication2/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt",
+      "bytes": 677,
+      "sha256": "1122041ffdc1030bbd0be90235660df6510082cbe12947153a310d32799da8bc",
+      "git_blob_sha": "e9283cf4d899da306f79b1656ac2ab1d21d6c792"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/AndroidManifest.xml",
+      "source_path": "course-exercises/MyApplication2/app/src/main/AndroidManifest.xml",
+      "bytes": 1065,
+      "sha256": "a26c23c4bd237b4ff41401d94be535ae7eb9f62aeaad70b641508b7544314e86",
+      "git_blob_sha": "2052536e7a3aa25fa483d08ff8e0da9331d72a2b"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/java/com/example/myapplication/MainActivity.kt",
+      "source_path": "course-exercises/MyApplication2/app/src/main/java/com/example/myapplication/MainActivity.kt",
+      "bytes": 1509,
+      "sha256": "d1b4b9465db7173ba8dc454394d29f8037cd376ba510e9b8fed2f61c95aab86a",
+      "git_blob_sha": "4a45e4d3b42b8f757823e543c367b5a9ba7c0399"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/java/com/example/myapplication/MainActivity2.kt",
+      "source_path": "course-exercises/MyApplication2/app/src/main/java/com/example/myapplication/MainActivity2.kt",
+      "bytes": 1108,
+      "sha256": "f0baca4e072ea2ba7211f812e9e868b0cbbcc2418d472f28ea52c26f161b4e00",
+      "git_blob_sha": "cab8fa5e39c9ae775dbef1e4c414c969cf65ea58"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/drawable/ic_launcher_background.xml",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/drawable/ic_launcher_background.xml",
+      "bytes": 5606,
+      "sha256": "ed423c73a6f40a4d2909f0901e60527b3a807cd59e1b5593bcaae1808b1c6321",
+      "git_blob_sha": "07d5da9cbf141911847041df5d7b87f0dd5ef9d4"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "bytes": 1702,
+      "sha256": "01d1a6a6c1234eb7fe270d097eb283d72b9c95ae5118886f1b6573aad280f1f7",
+      "git_blob_sha": "2b068d11462a4b96669193de13a711a3a36220a0"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/layout/activity_main.xml",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/layout/activity_main.xml",
+      "bytes": 1255,
+      "sha256": "222960ce5ac57709801fbd8b5561a49fba80819eaa3b01c0880f91af25f609c9",
+      "git_blob_sha": "6b924e82014bebe2390f0e862120c64db3b05e20"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/layout/activity_main2.xml",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/layout/activity_main2.xml",
+      "bytes": 865,
+      "sha256": "cf882ea45c3f59e802ef41f1e665b8417cebc31b9b3d6dd140274df00ae6211c",
+      "git_blob_sha": "fc8fa161d6dd30be39c59a67835fdff66340e95f"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "bytes": 1404,
+      "sha256": "dd00996198640ed28fbc09cdcd7a3807cf8707f3eb255b659634da3ca6a6ff01",
+      "git_blob_sha": "c209e78ecd372343283f4157dcfd918ec5165bb3"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "bytes": 2898,
+      "sha256": "1ed73f5341a69d3b41c7e02e126803f50cc8c3284adf4bbb737f0c93577aef07",
+      "git_blob_sha": "b2dfe3d1ba5cf3ee31b3ecc1ced89044a1f3b7a9"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "bytes": 982,
+      "sha256": "846219e6f72fe9a6c104ca8919cbee36a101e7d2ff8da9da67b689a5888f060d",
+      "git_blob_sha": "4f0f1d64e58ba64d180ce43ee13bf9a17835fbca"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "bytes": 1772,
+      "sha256": "4e2c58b91de01130e6479e00cbbaaf6e77cd961dd2c8e303cf13cd077fa92632",
+      "git_blob_sha": "62b611da081676d42f6c3f78a2c91e7bcedddedb"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "bytes": 1900,
+      "sha256": "398340dad816fc9a6338cb151a8cf1e45b926f9bfb70628b24c4bd2523cc94d4",
+      "git_blob_sha": "948a3070fe34c611c42c0d3ad3013a0dce358be0"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "bytes": 3918,
+      "sha256": "91b490aef86574901137f0a252272e1f1add99c1ad709e0696ed68929b88d261",
+      "git_blob_sha": "1b9a6956b3acdc11f40ce2bb3f6efbd845cc243f"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "bytes": 2884,
+      "sha256": "58ae87fa0c5b5d1562d27fd648d2c061553fe20e3ed570bde588162d01ea7a27",
+      "git_blob_sha": "28d4b77f9f036a47549d47db79c16788749dca10"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "bytes": 5914,
+      "sha256": "3009fad079f5772f30ecd767f98924367fbe0f81c30048d672d4fda2d5ca7d12",
+      "git_blob_sha": "9287f5083623b375139afb391af71cc533a7dd37"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "bytes": 3844,
+      "sha256": "f98fef5bc3bfe5b65692c40ad1cbae2bec4faf9f1b249c397626740db71b62d8",
+      "git_blob_sha": "aa7d6427e6fa1074b79ccd52ef67ac15c5637e85"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "bytes": 7778,
+      "sha256": "5faf033745c8c882c43bb1b372d4e4a5890caec63d9892a2e756c954108b85dc",
+      "git_blob_sha": "9126ae37cbc3587421d6889eadd1d91fbf1994d4"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/values-night/themes.xml",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/values-night/themes.xml",
+      "bytes": 333,
+      "sha256": "8874587db4914392bacd008e4c497301faa3f1453dd1c817a1246a89085fa759",
+      "git_blob_sha": "d25b0f2f61ec548c0334a453e602a4298a9e58af"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/values/colors.xml",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/values/colors.xml",
+      "bytes": 147,
+      "sha256": "efb70d7499549a57cea32b00e790ef0632cb0c95cdaeefd16903c8cd12c889e4",
+      "git_blob_sha": "c8524cd961d27b6695e755c6ef2d4d58cf38431e"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/values/strings.xml",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/values/strings.xml",
+      "bytes": 76,
+      "sha256": "22e88cca26de9e26e33916dce55a324dca54a842b197f191b3406f7e11a1ab90",
+      "git_blob_sha": "3de1a3968d8b34c920ca224de40811509c6625ed"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/values/themes.xml",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/values/themes.xml",
+      "bytes": 411,
+      "sha256": "cc09b0c73ddd9f4227b0ad3386b91a5de0ab34015e3d2a541536f43b1512f3bc",
+      "git_blob_sha": "d66ac09b2a42e15ad996e8284b9b5570ebeb56cf"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/xml/backup_rules.xml",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/xml/backup_rules.xml",
+      "bytes": 478,
+      "sha256": "9f7e4c84c8fd2c81478d15962383f47cc6ff55d62abcd40c8ffa6fc08a8c35b7",
+      "git_blob_sha": "fa0f996d2c2a6bdd11f5371de4268c8389d6c720"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/main/res/xml/data_extraction_rules.xml",
+      "source_path": "course-exercises/MyApplication2/app/src/main/res/xml/data_extraction_rules.xml",
+      "bytes": 551,
+      "sha256": "cb1fc47ab4a984530ed60e0e6ee638929c3038290e7e7e0b4b03a3a30fbe7381",
+      "git_blob_sha": "9ee9997b0b4726e57c27b2f7b21462b604ff8a88"
+    },
+    {
+      "path": "Practice/MyApplication2/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt",
+      "source_path": "course-exercises/MyApplication2/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt",
+      "bytes": 349,
+      "sha256": "2aee0ee7720f585e05c82b4711b64b8b7d191406054a3042515c00e37487992e",
+      "git_blob_sha": "e500fb8bac0b908766a508785aef377626392bb1"
+    },
+    {
+      "path": "Practice/MyApplication2/build.gradle.kts",
+      "source_path": "course-exercises/MyApplication2/build.gradle.kts",
+      "bytes": 218,
+      "sha256": "6ad44a57f5d546a748417bb5da689c932e40c8478bb5c66cfaef35d42400cd82",
+      "git_blob_sha": "922f551105e1b8c176391b38c9436d45f172b546"
+    },
+    {
+      "path": "Practice/MyApplication2/gradle.properties",
+      "source_path": "course-exercises/MyApplication2/gradle.properties",
+      "bytes": 1346,
+      "sha256": "51e4b5a131eb01b1cdeb2f6f26aaba69d367a4a9d4ccd10c6d6f6d12fd545b66",
+      "git_blob_sha": "20e2a01520742aff4ec9ce578ed4fe5f3a76fe77"
+    },
+    {
+      "path": "Practice/MyApplication2/gradle/libs.versions.toml",
+      "source_path": "course-exercises/MyApplication2/gradle/libs.versions.toml",
+      "bytes": 1191,
+      "sha256": "0b44fdf27ac7e9dadbed64ef4bb2437c9aac9b5179608501e7468a7806a2e9d2",
+      "git_blob_sha": "2a7aee7578f602485b99b307fea70a43da71e8a1"
+    },
+    {
+      "path": "Practice/MyApplication2/gradle/wrapper/gradle-wrapper.jar",
+      "source_path": "course-exercises/MyApplication2/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 59203,
+      "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+      "git_blob_sha": "e708b1c023ec8b20f512888fe07c5bd3ff77bb8f"
+    },
+    {
+      "path": "Practice/MyApplication2/gradle/wrapper/gradle-wrapper.properties",
+      "source_path": "course-exercises/MyApplication2/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 239,
+      "sha256": "d2aa000cd10f78f30facfb72b9df380fb0216110e1cab39f87fe84c73d2397e2",
+      "git_blob_sha": "26da92b65f056d4289d10ef4a99fcbf23c8f01c9"
+    },
+    {
+      "path": "Practice/MyApplication2/gradlew",
+      "source_path": "course-exercises/MyApplication2/gradlew",
+      "bytes": 5766,
+      "sha256": "63135287117a1e6d12c84580f1f49c61d1ba02218ecd28660605e97f976e7d65",
+      "git_blob_sha": "4f906e0c811fc9e230eb44819f509cd0627f2600"
+    },
+    {
+      "path": "Practice/MyApplication2/gradlew.bat",
+      "source_path": "course-exercises/MyApplication2/gradlew.bat",
+      "bytes": 2763,
+      "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+      "git_blob_sha": "ac1b06f93825db68fb0c0b5150917f340eaa5d02"
+    },
+    {
+      "path": "Practice/MyApplication2/settings.gradle.kts",
+      "source_path": "course-exercises/MyApplication2/settings.gradle.kts",
+      "bytes": 538,
+      "sha256": "82e5f7bf80499d8ee74e8154aa6ba70424a0657e779153a6a5c77e73ecbee346",
+      "git_blob_sha": "5dc01897baab47e59edade0e8852810e5fc1d4c5"
+    },
+    {
+      "path": "Practice/MyApplication3/.gitignore",
+      "source_path": "course-exercises/MyApplication3/.gitignore",
+      "bytes": 225,
+      "sha256": "703238443066325af08e3868d1e4b571a633baf68fcc93e323f0066999a97e1b",
+      "git_blob_sha": "aa724b77071afcbd9bb398053e05adaf7ac9405a"
+    },
+    {
+      "path": "Practice/MyApplication3/app/.gitignore",
+      "source_path": "course-exercises/MyApplication3/app/.gitignore",
+      "bytes": 6,
+      "sha256": "5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4",
+      "git_blob_sha": "42afabfd2abebf31384ca7797186a27a4b7dbee8"
+    },
+    {
+      "path": "Practice/MyApplication3/app/build.gradle.kts",
+      "source_path": "course-exercises/MyApplication3/app/build.gradle.kts",
+      "bytes": 1226,
+      "sha256": "5d53f6a3aa966aa2c543f86a786ea5256b8b56eaa6adaca3a8b825cc4c5ad44e",
+      "git_blob_sha": "9cf37f5f1a24a637243aeb6e717969730268d5ee"
+    },
+    {
+      "path": "Practice/MyApplication3/app/proguard-rules.pro",
+      "source_path": "course-exercises/MyApplication3/app/proguard-rules.pro",
+      "bytes": 750,
+      "sha256": "56fd960cf225f6ca40f982b13a5dbb0d8bc3dfde13ff76422825c6070d0a1890",
+      "git_blob_sha": "481bb434814107eb79d7a30b676d344b0df2f8ce"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt",
+      "source_path": "course-exercises/MyApplication3/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt",
+      "bytes": 677,
+      "sha256": "1122041ffdc1030bbd0be90235660df6510082cbe12947153a310d32799da8bc",
+      "git_blob_sha": "e9283cf4d899da306f79b1656ac2ab1d21d6c792"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/AndroidManifest.xml",
+      "source_path": "course-exercises/MyApplication3/app/src/main/AndroidManifest.xml",
+      "bytes": 1064,
+      "sha256": "7171a2328b33eb20b21c146cf5f43fd1a976038f3b0d0109062c9915dd00242e",
+      "git_blob_sha": "a42601e3c84abc0d18033021f625f6327c908e85"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/java/com/example/myapplication/MainActivity.kt",
+      "source_path": "course-exercises/MyApplication3/app/src/main/java/com/example/myapplication/MainActivity.kt",
+      "bytes": 2269,
+      "sha256": "8ce941ad49773e8193bd9dca27709991c7c142cafccb1690b4e370f9a2f8e72e",
+      "git_blob_sha": "bb759398aa3d4e31ec42138d473194d5613cf3c6"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/java/com/example/myapplication/MainActivity2.kt",
+      "source_path": "course-exercises/MyApplication3/app/src/main/java/com/example/myapplication/MainActivity2.kt",
+      "bytes": 3221,
+      "sha256": "9f8d7bd0ef4de0d5162c9955f4201dc47eb40f747366fe55fb72ebd37903dd39",
+      "git_blob_sha": "9e8e6cdff7e01b3ee90d9ec8f820cc835534e069"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/drawable/ic_launcher_background.xml",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/drawable/ic_launcher_background.xml",
+      "bytes": 5606,
+      "sha256": "ed423c73a6f40a4d2909f0901e60527b3a807cd59e1b5593bcaae1808b1c6321",
+      "git_blob_sha": "07d5da9cbf141911847041df5d7b87f0dd5ef9d4"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "bytes": 1702,
+      "sha256": "01d1a6a6c1234eb7fe270d097eb283d72b9c95ae5118886f1b6573aad280f1f7",
+      "git_blob_sha": "2b068d11462a4b96669193de13a711a3a36220a0"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/layout/activity_main.xml",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/layout/activity_main.xml",
+      "bytes": 3368,
+      "sha256": "46c2023363af8e43a2eeb81e3190bb1528fc9db192c31ee02b99cbf1c50a048c",
+      "git_blob_sha": "0ba2dced0964a594c86a8b82ffd427384446ff43"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/layout/activity_main2.xml",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/layout/activity_main2.xml",
+      "bytes": 2814,
+      "sha256": "1fe757456a7b46be4071261ad7b0f55a1ac4aa2de215d21fdfb353e92ce28f81",
+      "git_blob_sha": "d03366e3f89b642e5580575dad49a1015a09e8dd"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "bytes": 1404,
+      "sha256": "dd00996198640ed28fbc09cdcd7a3807cf8707f3eb255b659634da3ca6a6ff01",
+      "git_blob_sha": "c209e78ecd372343283f4157dcfd918ec5165bb3"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "bytes": 2898,
+      "sha256": "1ed73f5341a69d3b41c7e02e126803f50cc8c3284adf4bbb737f0c93577aef07",
+      "git_blob_sha": "b2dfe3d1ba5cf3ee31b3ecc1ced89044a1f3b7a9"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "bytes": 982,
+      "sha256": "846219e6f72fe9a6c104ca8919cbee36a101e7d2ff8da9da67b689a5888f060d",
+      "git_blob_sha": "4f0f1d64e58ba64d180ce43ee13bf9a17835fbca"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "bytes": 1772,
+      "sha256": "4e2c58b91de01130e6479e00cbbaaf6e77cd961dd2c8e303cf13cd077fa92632",
+      "git_blob_sha": "62b611da081676d42f6c3f78a2c91e7bcedddedb"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "bytes": 1900,
+      "sha256": "398340dad816fc9a6338cb151a8cf1e45b926f9bfb70628b24c4bd2523cc94d4",
+      "git_blob_sha": "948a3070fe34c611c42c0d3ad3013a0dce358be0"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "bytes": 3918,
+      "sha256": "91b490aef86574901137f0a252272e1f1add99c1ad709e0696ed68929b88d261",
+      "git_blob_sha": "1b9a6956b3acdc11f40ce2bb3f6efbd845cc243f"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "bytes": 2884,
+      "sha256": "58ae87fa0c5b5d1562d27fd648d2c061553fe20e3ed570bde588162d01ea7a27",
+      "git_blob_sha": "28d4b77f9f036a47549d47db79c16788749dca10"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "bytes": 5914,
+      "sha256": "3009fad079f5772f30ecd767f98924367fbe0f81c30048d672d4fda2d5ca7d12",
+      "git_blob_sha": "9287f5083623b375139afb391af71cc533a7dd37"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "bytes": 3844,
+      "sha256": "f98fef5bc3bfe5b65692c40ad1cbae2bec4faf9f1b249c397626740db71b62d8",
+      "git_blob_sha": "aa7d6427e6fa1074b79ccd52ef67ac15c5637e85"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "bytes": 7778,
+      "sha256": "5faf033745c8c882c43bb1b372d4e4a5890caec63d9892a2e756c954108b85dc",
+      "git_blob_sha": "9126ae37cbc3587421d6889eadd1d91fbf1994d4"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/values-night/themes.xml",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/values-night/themes.xml",
+      "bytes": 333,
+      "sha256": "8874587db4914392bacd008e4c497301faa3f1453dd1c817a1246a89085fa759",
+      "git_blob_sha": "d25b0f2f61ec548c0334a453e602a4298a9e58af"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/values/colors.xml",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/values/colors.xml",
+      "bytes": 147,
+      "sha256": "efb70d7499549a57cea32b00e790ef0632cb0c95cdaeefd16903c8cd12c889e4",
+      "git_blob_sha": "c8524cd961d27b6695e755c6ef2d4d58cf38431e"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/values/strings.xml",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/values/strings.xml",
+      "bytes": 266,
+      "sha256": "4d3df2b4c92fcd5d592c34c9f8a3e792d51b920dbc8b33e344d55a794ab67dae",
+      "git_blob_sha": "7b8dfc6f754b928e0fb8357b7c1db5cd7083b46d"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/values/themes.xml",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/values/themes.xml",
+      "bytes": 411,
+      "sha256": "cc09b0c73ddd9f4227b0ad3386b91a5de0ab34015e3d2a541536f43b1512f3bc",
+      "git_blob_sha": "d66ac09b2a42e15ad996e8284b9b5570ebeb56cf"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/xml/backup_rules.xml",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/xml/backup_rules.xml",
+      "bytes": 478,
+      "sha256": "9f7e4c84c8fd2c81478d15962383f47cc6ff55d62abcd40c8ffa6fc08a8c35b7",
+      "git_blob_sha": "fa0f996d2c2a6bdd11f5371de4268c8389d6c720"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/main/res/xml/data_extraction_rules.xml",
+      "source_path": "course-exercises/MyApplication3/app/src/main/res/xml/data_extraction_rules.xml",
+      "bytes": 551,
+      "sha256": "cb1fc47ab4a984530ed60e0e6ee638929c3038290e7e7e0b4b03a3a30fbe7381",
+      "git_blob_sha": "9ee9997b0b4726e57c27b2f7b21462b604ff8a88"
+    },
+    {
+      "path": "Practice/MyApplication3/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt",
+      "source_path": "course-exercises/MyApplication3/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt",
+      "bytes": 349,
+      "sha256": "2aee0ee7720f585e05c82b4711b64b8b7d191406054a3042515c00e37487992e",
+      "git_blob_sha": "e500fb8bac0b908766a508785aef377626392bb1"
+    },
+    {
+      "path": "Practice/MyApplication3/build.gradle.kts",
+      "source_path": "course-exercises/MyApplication3/build.gradle.kts",
+      "bytes": 218,
+      "sha256": "6ad44a57f5d546a748417bb5da689c932e40c8478bb5c66cfaef35d42400cd82",
+      "git_blob_sha": "922f551105e1b8c176391b38c9436d45f172b546"
+    },
+    {
+      "path": "Practice/MyApplication3/gradle.properties",
+      "source_path": "course-exercises/MyApplication3/gradle.properties",
+      "bytes": 1346,
+      "sha256": "51e4b5a131eb01b1cdeb2f6f26aaba69d367a4a9d4ccd10c6d6f6d12fd545b66",
+      "git_blob_sha": "20e2a01520742aff4ec9ce578ed4fe5f3a76fe77"
+    },
+    {
+      "path": "Practice/MyApplication3/gradle/libs.versions.toml",
+      "source_path": "course-exercises/MyApplication3/gradle/libs.versions.toml",
+      "bytes": 1191,
+      "sha256": "0b44fdf27ac7e9dadbed64ef4bb2437c9aac9b5179608501e7468a7806a2e9d2",
+      "git_blob_sha": "2a7aee7578f602485b99b307fea70a43da71e8a1"
+    },
+    {
+      "path": "Practice/MyApplication3/gradle/wrapper/gradle-wrapper.jar",
+      "source_path": "course-exercises/MyApplication3/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 59203,
+      "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+      "git_blob_sha": "e708b1c023ec8b20f512888fe07c5bd3ff77bb8f"
+    },
+    {
+      "path": "Practice/MyApplication3/gradle/wrapper/gradle-wrapper.properties",
+      "source_path": "course-exercises/MyApplication3/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 239,
+      "sha256": "3e7385c2041901810964f820c44523507b1534717e4ae51098d5ebe592b4ab4e",
+      "git_blob_sha": "2bf45510051b3df38fe0682b5524c54b1c58ddcb"
+    },
+    {
+      "path": "Practice/MyApplication3/gradlew",
+      "source_path": "course-exercises/MyApplication3/gradlew",
+      "bytes": 5766,
+      "sha256": "63135287117a1e6d12c84580f1f49c61d1ba02218ecd28660605e97f976e7d65",
+      "git_blob_sha": "4f906e0c811fc9e230eb44819f509cd0627f2600"
+    },
+    {
+      "path": "Practice/MyApplication3/gradlew.bat",
+      "source_path": "course-exercises/MyApplication3/gradlew.bat",
+      "bytes": 2763,
+      "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+      "git_blob_sha": "ac1b06f93825db68fb0c0b5150917f340eaa5d02"
+    },
+    {
+      "path": "Practice/MyApplication3/settings.gradle.kts",
+      "source_path": "course-exercises/MyApplication3/settings.gradle.kts",
+      "bytes": 538,
+      "sha256": "82e5f7bf80499d8ee74e8154aa6ba70424a0657e779153a6a5c77e73ecbee346",
+      "git_blob_sha": "5dc01897baab47e59edade0e8852810e5fc1d4c5"
+    },
+    {
+      "path": "Practice/MyApplication4/.gitignore",
+      "source_path": "course-exercises/MyApplication4/.gitignore",
+      "bytes": 225,
+      "sha256": "703238443066325af08e3868d1e4b571a633baf68fcc93e323f0066999a97e1b",
+      "git_blob_sha": "aa724b77071afcbd9bb398053e05adaf7ac9405a"
+    },
+    {
+      "path": "Practice/MyApplication4/app/.gitignore",
+      "source_path": "course-exercises/MyApplication4/app/.gitignore",
+      "bytes": 6,
+      "sha256": "5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4",
+      "git_blob_sha": "42afabfd2abebf31384ca7797186a27a4b7dbee8"
+    },
+    {
+      "path": "Practice/MyApplication4/app/build.gradle.kts",
+      "source_path": "course-exercises/MyApplication4/app/build.gradle.kts",
+      "bytes": 1226,
+      "sha256": "5d53f6a3aa966aa2c543f86a786ea5256b8b56eaa6adaca3a8b825cc4c5ad44e",
+      "git_blob_sha": "9cf37f5f1a24a637243aeb6e717969730268d5ee"
+    },
+    {
+      "path": "Practice/MyApplication4/app/proguard-rules.pro",
+      "source_path": "course-exercises/MyApplication4/app/proguard-rules.pro",
+      "bytes": 750,
+      "sha256": "56fd960cf225f6ca40f982b13a5dbb0d8bc3dfde13ff76422825c6070d0a1890",
+      "git_blob_sha": "481bb434814107eb79d7a30b676d344b0df2f8ce"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt",
+      "source_path": "course-exercises/MyApplication4/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt",
+      "bytes": 677,
+      "sha256": "1122041ffdc1030bbd0be90235660df6510082cbe12947153a310d32799da8bc",
+      "git_blob_sha": "e9283cf4d899da306f79b1656ac2ab1d21d6c792"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/AndroidManifest.xml",
+      "source_path": "course-exercises/MyApplication4/app/src/main/AndroidManifest.xml",
+      "bytes": 1065,
+      "sha256": "a26c23c4bd237b4ff41401d94be535ae7eb9f62aeaad70b641508b7544314e86",
+      "git_blob_sha": "2052536e7a3aa25fa483d08ff8e0da9331d72a2b"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/java/com/example/myapplication/MainActivity.kt",
+      "source_path": "course-exercises/MyApplication4/app/src/main/java/com/example/myapplication/MainActivity.kt",
+      "bytes": 1506,
+      "sha256": "4559916d489b4aae50f5780c605484dca17bc50e574675802a4e6c8fa8a15c68",
+      "git_blob_sha": "ca131490fda0dfe39e1b4107e1155d4eb3d4f8ff"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/java/com/example/myapplication/MainActivity2.kt",
+      "source_path": "course-exercises/MyApplication4/app/src/main/java/com/example/myapplication/MainActivity2.kt",
+      "bytes": 1664,
+      "sha256": "65e147268a15bb10519663682a728db079ccf1f2eb94706d4eb65efe1ef727ff",
+      "git_blob_sha": "f6f4e8b2d0b213ba5bbe2fe1ae4c8ebf2f1e7fc8"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/drawable/ic_launcher_background.xml",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/drawable/ic_launcher_background.xml",
+      "bytes": 5606,
+      "sha256": "ed423c73a6f40a4d2909f0901e60527b3a807cd59e1b5593bcaae1808b1c6321",
+      "git_blob_sha": "07d5da9cbf141911847041df5d7b87f0dd5ef9d4"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "bytes": 1702,
+      "sha256": "01d1a6a6c1234eb7fe270d097eb283d72b9c95ae5118886f1b6573aad280f1f7",
+      "git_blob_sha": "2b068d11462a4b96669193de13a711a3a36220a0"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/layout/activity_main.xml",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/layout/activity_main.xml",
+      "bytes": 2114,
+      "sha256": "ebeca192d25e77d8e231bf9fa2c9e6906a60ee323250540b2ac3fcc3907f8ea7",
+      "git_blob_sha": "e95cfeaf7a4a7a5df0638955518f0984188b583c"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/layout/activity_main2.xml",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/layout/activity_main2.xml",
+      "bytes": 2119,
+      "sha256": "184dbf1c49fa52d07908b3fc1f038f1df301087b6aca983c13dc78f679cd5d01",
+      "git_blob_sha": "c7f03738d64845746c1efaf87836b9e9cb688152"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "bytes": 1404,
+      "sha256": "dd00996198640ed28fbc09cdcd7a3807cf8707f3eb255b659634da3ca6a6ff01",
+      "git_blob_sha": "c209e78ecd372343283f4157dcfd918ec5165bb3"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "bytes": 2898,
+      "sha256": "1ed73f5341a69d3b41c7e02e126803f50cc8c3284adf4bbb737f0c93577aef07",
+      "git_blob_sha": "b2dfe3d1ba5cf3ee31b3ecc1ced89044a1f3b7a9"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "bytes": 982,
+      "sha256": "846219e6f72fe9a6c104ca8919cbee36a101e7d2ff8da9da67b689a5888f060d",
+      "git_blob_sha": "4f0f1d64e58ba64d180ce43ee13bf9a17835fbca"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "bytes": 1772,
+      "sha256": "4e2c58b91de01130e6479e00cbbaaf6e77cd961dd2c8e303cf13cd077fa92632",
+      "git_blob_sha": "62b611da081676d42f6c3f78a2c91e7bcedddedb"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "bytes": 1900,
+      "sha256": "398340dad816fc9a6338cb151a8cf1e45b926f9bfb70628b24c4bd2523cc94d4",
+      "git_blob_sha": "948a3070fe34c611c42c0d3ad3013a0dce358be0"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "bytes": 3918,
+      "sha256": "91b490aef86574901137f0a252272e1f1add99c1ad709e0696ed68929b88d261",
+      "git_blob_sha": "1b9a6956b3acdc11f40ce2bb3f6efbd845cc243f"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "bytes": 2884,
+      "sha256": "58ae87fa0c5b5d1562d27fd648d2c061553fe20e3ed570bde588162d01ea7a27",
+      "git_blob_sha": "28d4b77f9f036a47549d47db79c16788749dca10"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "bytes": 5914,
+      "sha256": "3009fad079f5772f30ecd767f98924367fbe0f81c30048d672d4fda2d5ca7d12",
+      "git_blob_sha": "9287f5083623b375139afb391af71cc533a7dd37"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "bytes": 3844,
+      "sha256": "f98fef5bc3bfe5b65692c40ad1cbae2bec4faf9f1b249c397626740db71b62d8",
+      "git_blob_sha": "aa7d6427e6fa1074b79ccd52ef67ac15c5637e85"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "bytes": 7778,
+      "sha256": "5faf033745c8c882c43bb1b372d4e4a5890caec63d9892a2e756c954108b85dc",
+      "git_blob_sha": "9126ae37cbc3587421d6889eadd1d91fbf1994d4"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/values-night/themes.xml",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/values-night/themes.xml",
+      "bytes": 333,
+      "sha256": "8874587db4914392bacd008e4c497301faa3f1453dd1c817a1246a89085fa759",
+      "git_blob_sha": "d25b0f2f61ec548c0334a453e602a4298a9e58af"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/values/colors.xml",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/values/colors.xml",
+      "bytes": 147,
+      "sha256": "efb70d7499549a57cea32b00e790ef0632cb0c95cdaeefd16903c8cd12c889e4",
+      "git_blob_sha": "c8524cd961d27b6695e755c6ef2d4d58cf38431e"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/values/strings.xml",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/values/strings.xml",
+      "bytes": 76,
+      "sha256": "22e88cca26de9e26e33916dce55a324dca54a842b197f191b3406f7e11a1ab90",
+      "git_blob_sha": "3de1a3968d8b34c920ca224de40811509c6625ed"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/values/themes.xml",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/values/themes.xml",
+      "bytes": 411,
+      "sha256": "cc09b0c73ddd9f4227b0ad3386b91a5de0ab34015e3d2a541536f43b1512f3bc",
+      "git_blob_sha": "d66ac09b2a42e15ad996e8284b9b5570ebeb56cf"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/xml/backup_rules.xml",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/xml/backup_rules.xml",
+      "bytes": 478,
+      "sha256": "9f7e4c84c8fd2c81478d15962383f47cc6ff55d62abcd40c8ffa6fc08a8c35b7",
+      "git_blob_sha": "fa0f996d2c2a6bdd11f5371de4268c8389d6c720"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/main/res/xml/data_extraction_rules.xml",
+      "source_path": "course-exercises/MyApplication4/app/src/main/res/xml/data_extraction_rules.xml",
+      "bytes": 551,
+      "sha256": "cb1fc47ab4a984530ed60e0e6ee638929c3038290e7e7e0b4b03a3a30fbe7381",
+      "git_blob_sha": "9ee9997b0b4726e57c27b2f7b21462b604ff8a88"
+    },
+    {
+      "path": "Practice/MyApplication4/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt",
+      "source_path": "course-exercises/MyApplication4/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt",
+      "bytes": 349,
+      "sha256": "2aee0ee7720f585e05c82b4711b64b8b7d191406054a3042515c00e37487992e",
+      "git_blob_sha": "e500fb8bac0b908766a508785aef377626392bb1"
+    },
+    {
+      "path": "Practice/MyApplication4/build.gradle.kts",
+      "source_path": "course-exercises/MyApplication4/build.gradle.kts",
+      "bytes": 218,
+      "sha256": "6ad44a57f5d546a748417bb5da689c932e40c8478bb5c66cfaef35d42400cd82",
+      "git_blob_sha": "922f551105e1b8c176391b38c9436d45f172b546"
+    },
+    {
+      "path": "Practice/MyApplication4/gradle.properties",
+      "source_path": "course-exercises/MyApplication4/gradle.properties",
+      "bytes": 1346,
+      "sha256": "51e4b5a131eb01b1cdeb2f6f26aaba69d367a4a9d4ccd10c6d6f6d12fd545b66",
+      "git_blob_sha": "20e2a01520742aff4ec9ce578ed4fe5f3a76fe77"
+    },
+    {
+      "path": "Practice/MyApplication4/gradle/libs.versions.toml",
+      "source_path": "course-exercises/MyApplication4/gradle/libs.versions.toml",
+      "bytes": 1191,
+      "sha256": "0b44fdf27ac7e9dadbed64ef4bb2437c9aac9b5179608501e7468a7806a2e9d2",
+      "git_blob_sha": "2a7aee7578f602485b99b307fea70a43da71e8a1"
+    },
+    {
+      "path": "Practice/MyApplication4/gradle/wrapper/gradle-wrapper.jar",
+      "source_path": "course-exercises/MyApplication4/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 59203,
+      "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+      "git_blob_sha": "e708b1c023ec8b20f512888fe07c5bd3ff77bb8f"
+    },
+    {
+      "path": "Practice/MyApplication4/gradle/wrapper/gradle-wrapper.properties",
+      "source_path": "course-exercises/MyApplication4/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 239,
+      "sha256": "63661c14dd2e2580cf0985fcc6cfd7c5bf7d88abb30000866020ff6033f6cfea",
+      "git_blob_sha": "0725e2a7d3ee84245ce84c3ca9bee6541ca9cc9f"
+    },
+    {
+      "path": "Practice/MyApplication4/gradlew",
+      "source_path": "course-exercises/MyApplication4/gradlew",
+      "bytes": 5766,
+      "sha256": "63135287117a1e6d12c84580f1f49c61d1ba02218ecd28660605e97f976e7d65",
+      "git_blob_sha": "4f906e0c811fc9e230eb44819f509cd0627f2600"
+    },
+    {
+      "path": "Practice/MyApplication4/gradlew.bat",
+      "source_path": "course-exercises/MyApplication4/gradlew.bat",
+      "bytes": 2763,
+      "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+      "git_blob_sha": "ac1b06f93825db68fb0c0b5150917f340eaa5d02"
+    },
+    {
+      "path": "Practice/MyApplication4/settings.gradle.kts",
+      "source_path": "course-exercises/MyApplication4/settings.gradle.kts",
+      "bytes": 538,
+      "sha256": "82e5f7bf80499d8ee74e8154aa6ba70424a0657e779153a6a5c77e73ecbee346",
+      "git_blob_sha": "5dc01897baab47e59edade0e8852810e5fc1d4c5"
+    },
+    {
+      "path": "Practice/MyApplication5/.gitignore",
+      "source_path": "course-exercises/MyApplication5/.gitignore",
+      "bytes": 225,
+      "sha256": "703238443066325af08e3868d1e4b571a633baf68fcc93e323f0066999a97e1b",
+      "git_blob_sha": "aa724b77071afcbd9bb398053e05adaf7ac9405a"
+    },
+    {
+      "path": "Practice/MyApplication5/app/.gitignore",
+      "source_path": "course-exercises/MyApplication5/app/.gitignore",
+      "bytes": 6,
+      "sha256": "5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4",
+      "git_blob_sha": "42afabfd2abebf31384ca7797186a27a4b7dbee8"
+    },
+    {
+      "path": "Practice/MyApplication5/app/build.gradle.kts",
+      "source_path": "course-exercises/MyApplication5/app/build.gradle.kts",
+      "bytes": 1226,
+      "sha256": "5d53f6a3aa966aa2c543f86a786ea5256b8b56eaa6adaca3a8b825cc4c5ad44e",
+      "git_blob_sha": "9cf37f5f1a24a637243aeb6e717969730268d5ee"
+    },
+    {
+      "path": "Practice/MyApplication5/app/proguard-rules.pro",
+      "source_path": "course-exercises/MyApplication5/app/proguard-rules.pro",
+      "bytes": 750,
+      "sha256": "56fd960cf225f6ca40f982b13a5dbb0d8bc3dfde13ff76422825c6070d0a1890",
+      "git_blob_sha": "481bb434814107eb79d7a30b676d344b0df2f8ce"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt",
+      "source_path": "course-exercises/MyApplication5/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt",
+      "bytes": 677,
+      "sha256": "1122041ffdc1030bbd0be90235660df6510082cbe12947153a310d32799da8bc",
+      "git_blob_sha": "e9283cf4d899da306f79b1656ac2ab1d21d6c792"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/AndroidManifest.xml",
+      "source_path": "course-exercises/MyApplication5/app/src/main/AndroidManifest.xml",
+      "bytes": 962,
+      "sha256": "f1e585fa5a8c0b1a3a4c47515653b2d8b35a762b8748c3015fc03af74b84a21b",
+      "git_blob_sha": "9e44eaf5f9c568d0d6d1164de00a198d3da8e289"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/java/com/example/myapplication/MainActivity.kt",
+      "source_path": "course-exercises/MyApplication5/app/src/main/java/com/example/myapplication/MainActivity.kt",
+      "bytes": 1993,
+      "sha256": "4e14a27e20d4d5a6ac6e4c7a9d7a4f533f526fe8d03010974c63324f9cd835a8",
+      "git_blob_sha": "0301f6a45b0c066f76f2f51f33c0333ceef46187"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/drawable/ic_launcher_background.xml",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/drawable/ic_launcher_background.xml",
+      "bytes": 5606,
+      "sha256": "ed423c73a6f40a4d2909f0901e60527b3a807cd59e1b5593bcaae1808b1c6321",
+      "git_blob_sha": "07d5da9cbf141911847041df5d7b87f0dd5ef9d4"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "bytes": 1702,
+      "sha256": "01d1a6a6c1234eb7fe270d097eb283d72b9c95ae5118886f1b6573aad280f1f7",
+      "git_blob_sha": "2b068d11462a4b96669193de13a711a3a36220a0"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/layout/activity_main.xml",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/layout/activity_main.xml",
+      "bytes": 1285,
+      "sha256": "05f1aa6eda38eb259e3ee3d68ede7943d7f0d0bbb9333989d4ac33061480b7f8",
+      "git_blob_sha": "c49edac0aad53188d2ed977ba52795035549a03e"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "bytes": 1404,
+      "sha256": "dd00996198640ed28fbc09cdcd7a3807cf8707f3eb255b659634da3ca6a6ff01",
+      "git_blob_sha": "c209e78ecd372343283f4157dcfd918ec5165bb3"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "bytes": 2898,
+      "sha256": "1ed73f5341a69d3b41c7e02e126803f50cc8c3284adf4bbb737f0c93577aef07",
+      "git_blob_sha": "b2dfe3d1ba5cf3ee31b3ecc1ced89044a1f3b7a9"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "bytes": 982,
+      "sha256": "846219e6f72fe9a6c104ca8919cbee36a101e7d2ff8da9da67b689a5888f060d",
+      "git_blob_sha": "4f0f1d64e58ba64d180ce43ee13bf9a17835fbca"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "bytes": 1772,
+      "sha256": "4e2c58b91de01130e6479e00cbbaaf6e77cd961dd2c8e303cf13cd077fa92632",
+      "git_blob_sha": "62b611da081676d42f6c3f78a2c91e7bcedddedb"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "bytes": 1900,
+      "sha256": "398340dad816fc9a6338cb151a8cf1e45b926f9bfb70628b24c4bd2523cc94d4",
+      "git_blob_sha": "948a3070fe34c611c42c0d3ad3013a0dce358be0"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "bytes": 3918,
+      "sha256": "91b490aef86574901137f0a252272e1f1add99c1ad709e0696ed68929b88d261",
+      "git_blob_sha": "1b9a6956b3acdc11f40ce2bb3f6efbd845cc243f"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "bytes": 2884,
+      "sha256": "58ae87fa0c5b5d1562d27fd648d2c061553fe20e3ed570bde588162d01ea7a27",
+      "git_blob_sha": "28d4b77f9f036a47549d47db79c16788749dca10"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "bytes": 5914,
+      "sha256": "3009fad079f5772f30ecd767f98924367fbe0f81c30048d672d4fda2d5ca7d12",
+      "git_blob_sha": "9287f5083623b375139afb391af71cc533a7dd37"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "bytes": 3844,
+      "sha256": "f98fef5bc3bfe5b65692c40ad1cbae2bec4faf9f1b249c397626740db71b62d8",
+      "git_blob_sha": "aa7d6427e6fa1074b79ccd52ef67ac15c5637e85"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "bytes": 7778,
+      "sha256": "5faf033745c8c882c43bb1b372d4e4a5890caec63d9892a2e756c954108b85dc",
+      "git_blob_sha": "9126ae37cbc3587421d6889eadd1d91fbf1994d4"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/values-night/themes.xml",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/values-night/themes.xml",
+      "bytes": 333,
+      "sha256": "8874587db4914392bacd008e4c497301faa3f1453dd1c817a1246a89085fa759",
+      "git_blob_sha": "d25b0f2f61ec548c0334a453e602a4298a9e58af"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/values/colors.xml",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/values/colors.xml",
+      "bytes": 147,
+      "sha256": "efb70d7499549a57cea32b00e790ef0632cb0c95cdaeefd16903c8cd12c889e4",
+      "git_blob_sha": "c8524cd961d27b6695e755c6ef2d4d58cf38431e"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/values/strings.xml",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/values/strings.xml",
+      "bytes": 76,
+      "sha256": "22e88cca26de9e26e33916dce55a324dca54a842b197f191b3406f7e11a1ab90",
+      "git_blob_sha": "3de1a3968d8b34c920ca224de40811509c6625ed"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/values/themes.xml",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/values/themes.xml",
+      "bytes": 411,
+      "sha256": "cc09b0c73ddd9f4227b0ad3386b91a5de0ab34015e3d2a541536f43b1512f3bc",
+      "git_blob_sha": "d66ac09b2a42e15ad996e8284b9b5570ebeb56cf"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/xml/backup_rules.xml",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/xml/backup_rules.xml",
+      "bytes": 478,
+      "sha256": "9f7e4c84c8fd2c81478d15962383f47cc6ff55d62abcd40c8ffa6fc08a8c35b7",
+      "git_blob_sha": "fa0f996d2c2a6bdd11f5371de4268c8389d6c720"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/main/res/xml/data_extraction_rules.xml",
+      "source_path": "course-exercises/MyApplication5/app/src/main/res/xml/data_extraction_rules.xml",
+      "bytes": 551,
+      "sha256": "cb1fc47ab4a984530ed60e0e6ee638929c3038290e7e7e0b4b03a3a30fbe7381",
+      "git_blob_sha": "9ee9997b0b4726e57c27b2f7b21462b604ff8a88"
+    },
+    {
+      "path": "Practice/MyApplication5/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt",
+      "source_path": "course-exercises/MyApplication5/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt",
+      "bytes": 349,
+      "sha256": "2aee0ee7720f585e05c82b4711b64b8b7d191406054a3042515c00e37487992e",
+      "git_blob_sha": "e500fb8bac0b908766a508785aef377626392bb1"
+    },
+    {
+      "path": "Practice/MyApplication5/build.gradle.kts",
+      "source_path": "course-exercises/MyApplication5/build.gradle.kts",
+      "bytes": 218,
+      "sha256": "6ad44a57f5d546a748417bb5da689c932e40c8478bb5c66cfaef35d42400cd82",
+      "git_blob_sha": "922f551105e1b8c176391b38c9436d45f172b546"
+    },
+    {
+      "path": "Practice/MyApplication5/gradle.properties",
+      "source_path": "course-exercises/MyApplication5/gradle.properties",
+      "bytes": 1346,
+      "sha256": "51e4b5a131eb01b1cdeb2f6f26aaba69d367a4a9d4ccd10c6d6f6d12fd545b66",
+      "git_blob_sha": "20e2a01520742aff4ec9ce578ed4fe5f3a76fe77"
+    },
+    {
+      "path": "Practice/MyApplication5/gradle/libs.versions.toml",
+      "source_path": "course-exercises/MyApplication5/gradle/libs.versions.toml",
+      "bytes": 1191,
+      "sha256": "0b44fdf27ac7e9dadbed64ef4bb2437c9aac9b5179608501e7468a7806a2e9d2",
+      "git_blob_sha": "2a7aee7578f602485b99b307fea70a43da71e8a1"
+    },
+    {
+      "path": "Practice/MyApplication5/gradle/wrapper/gradle-wrapper.jar",
+      "source_path": "course-exercises/MyApplication5/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 59203,
+      "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+      "git_blob_sha": "e708b1c023ec8b20f512888fe07c5bd3ff77bb8f"
+    },
+    {
+      "path": "Practice/MyApplication5/gradle/wrapper/gradle-wrapper.properties",
+      "source_path": "course-exercises/MyApplication5/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 239,
+      "sha256": "e701692178674b3be2f0006963037e29fd29fe01daf862c4537e58c81c629919",
+      "git_blob_sha": "ad55e88ccf62f70130f0b56141fb93d8db44d3bc"
+    },
+    {
+      "path": "Practice/MyApplication5/gradlew",
+      "source_path": "course-exercises/MyApplication5/gradlew",
+      "bytes": 5766,
+      "sha256": "63135287117a1e6d12c84580f1f49c61d1ba02218ecd28660605e97f976e7d65",
+      "git_blob_sha": "4f906e0c811fc9e230eb44819f509cd0627f2600"
+    },
+    {
+      "path": "Practice/MyApplication5/gradlew.bat",
+      "source_path": "course-exercises/MyApplication5/gradlew.bat",
+      "bytes": 2763,
+      "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+      "git_blob_sha": "ac1b06f93825db68fb0c0b5150917f340eaa5d02"
+    },
+    {
+      "path": "Practice/MyApplication5/settings.gradle.kts",
+      "source_path": "course-exercises/MyApplication5/settings.gradle.kts",
+      "bytes": 539,
+      "sha256": "9faa659da24a65ecd8eb84dc5cfd9c27d4686ff13a6f9355d9fadac7b39324bd",
+      "git_blob_sha": "7e677746ee9b67d2421569b5844bd04ad2ff66d8"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/.gitignore",
+      "source_path": "course-exercises/MyApplicationHW2/.gitignore",
+      "bytes": 225,
+      "sha256": "703238443066325af08e3868d1e4b571a633baf68fcc93e323f0066999a97e1b",
+      "git_blob_sha": "aa724b77071afcbd9bb398053e05adaf7ac9405a"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/.gitignore",
+      "source_path": "course-exercises/MyApplicationHW2/app/.gitignore",
+      "bytes": 6,
+      "sha256": "5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4",
+      "git_blob_sha": "42afabfd2abebf31384ca7797186a27a4b7dbee8"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/build.gradle.kts",
+      "source_path": "course-exercises/MyApplicationHW2/app/build.gradle.kts",
+      "bytes": 1288,
+      "sha256": "73be429a2078887a4d29d8e7b8a154bf30c7f8e2c2e5786bec887ffa51a91c28",
+      "git_blob_sha": "600e9057879411be398e2bf505d3a049959cc187"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/proguard-rules.pro",
+      "source_path": "course-exercises/MyApplicationHW2/app/proguard-rules.pro",
+      "bytes": 750,
+      "sha256": "56fd960cf225f6ca40f982b13a5dbb0d8bc3dfde13ff76422825c6070d0a1890",
+      "git_blob_sha": "481bb434814107eb79d7a30b676d344b0df2f8ce"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/androidTest/java/com/example/myapplicationhw2/ExampleInstrumentedTest.kt",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/androidTest/java/com/example/myapplicationhw2/ExampleInstrumentedTest.kt",
+      "bytes": 683,
+      "sha256": "a018c0f0b5c39f48c619b383045a1a780424e7d437837378b574c7d65905cc88",
+      "git_blob_sha": "c434d83aa4d301dccc27c85b29ae553163b76278"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/AndroidManifest.xml",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/AndroidManifest.xml",
+      "bytes": 1031,
+      "sha256": "2cde2605ec16e115a55e707d0e8d7cfdb548ae74e7a8a1f913fbbe0c581fd1d5",
+      "git_blob_sha": "81ecadca608a61cbe4d3a16e8a3cc57c6bbe8610"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/java/com/example/myapplicationhw2/MainActivity.kt",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/java/com/example/myapplicationhw2/MainActivity.kt",
+      "bytes": 5774,
+      "sha256": "1de0fbaa8996a894d6cc3126312337a54536a0f0fd355c55376f6ea64dd1c7ba",
+      "git_blob_sha": "6eb5589e94cdab582d89e22dad7ba1f1e12c877c"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/drawable/eur.png",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/drawable/eur.png",
+      "bytes": 1455,
+      "sha256": "72c06c34cdf5d800bdcb8efc6cf04755670d0441083a6c8be78bfc013641c556",
+      "git_blob_sha": "26e20fb5d094ec07c52150b504e0f43997e075f1"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/drawable/gbp.png",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/drawable/gbp.png",
+      "bytes": 3210,
+      "sha256": "ab2db185c6d1a7bc2c499a4acd16e8df48b141030efe6c6c013e0368aeb33e98",
+      "git_blob_sha": "881d6a8e3eb84bb2a6fea1feda54d0179b0902e9"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/drawable/ic_launcher_background.xml",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/drawable/ic_launcher_background.xml",
+      "bytes": 5606,
+      "sha256": "ed423c73a6f40a4d2909f0901e60527b3a807cd59e1b5593bcaae1808b1c6321",
+      "git_blob_sha": "07d5da9cbf141911847041df5d7b87f0dd5ef9d4"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "bytes": 1702,
+      "sha256": "01d1a6a6c1234eb7fe270d097eb283d72b9c95ae5118886f1b6573aad280f1f7",
+      "git_blob_sha": "2b068d11462a4b96669193de13a711a3a36220a0"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/drawable/ic_unknown.png",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/drawable/ic_unknown.png",
+      "bytes": 585,
+      "sha256": "d130453eeeab8cf1bdd222a36247be636f7666b473985a9a063b95e451e7b999",
+      "git_blob_sha": "1bf5bd801cdcae0404a16cccb460918996ed5084"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/drawable/twd.png",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/drawable/twd.png",
+      "bytes": 1072,
+      "sha256": "716ad33393d082f444a6b432bf9d645a305b4271d2955b5b5557f1968814ea16",
+      "git_blob_sha": "938633ffaf36e2207e36f1bad6299e3a8e06264c"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/drawable/usd.png",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/drawable/usd.png",
+      "bytes": 2107,
+      "sha256": "191f144f49db98233d4fd52819ebd62448a204cb9075b14733672aa52e37f347",
+      "git_blob_sha": "104dab1992cc5a087c1a21008b5c7a5bbafdef53"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/layout/activity_main.xml",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/layout/activity_main.xml",
+      "bytes": 5940,
+      "sha256": "2784a056de94315906a1712baad59e2667baec857178cbb9145f0007bcf9a468",
+      "git_blob_sha": "6388cd1a5a1b10587ecb8479a7ad4d1f2a12b4ac"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "bytes": 1404,
+      "sha256": "dd00996198640ed28fbc09cdcd7a3807cf8707f3eb255b659634da3ca6a6ff01",
+      "git_blob_sha": "c209e78ecd372343283f4157dcfd918ec5165bb3"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "bytes": 2898,
+      "sha256": "1ed73f5341a69d3b41c7e02e126803f50cc8c3284adf4bbb737f0c93577aef07",
+      "git_blob_sha": "b2dfe3d1ba5cf3ee31b3ecc1ced89044a1f3b7a9"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "bytes": 982,
+      "sha256": "846219e6f72fe9a6c104ca8919cbee36a101e7d2ff8da9da67b689a5888f060d",
+      "git_blob_sha": "4f0f1d64e58ba64d180ce43ee13bf9a17835fbca"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "bytes": 1772,
+      "sha256": "4e2c58b91de01130e6479e00cbbaaf6e77cd961dd2c8e303cf13cd077fa92632",
+      "git_blob_sha": "62b611da081676d42f6c3f78a2c91e7bcedddedb"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "bytes": 1900,
+      "sha256": "398340dad816fc9a6338cb151a8cf1e45b926f9bfb70628b24c4bd2523cc94d4",
+      "git_blob_sha": "948a3070fe34c611c42c0d3ad3013a0dce358be0"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "bytes": 3918,
+      "sha256": "91b490aef86574901137f0a252272e1f1add99c1ad709e0696ed68929b88d261",
+      "git_blob_sha": "1b9a6956b3acdc11f40ce2bb3f6efbd845cc243f"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "bytes": 2884,
+      "sha256": "58ae87fa0c5b5d1562d27fd648d2c061553fe20e3ed570bde588162d01ea7a27",
+      "git_blob_sha": "28d4b77f9f036a47549d47db79c16788749dca10"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "bytes": 5914,
+      "sha256": "3009fad079f5772f30ecd767f98924367fbe0f81c30048d672d4fda2d5ca7d12",
+      "git_blob_sha": "9287f5083623b375139afb391af71cc533a7dd37"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "bytes": 3844,
+      "sha256": "f98fef5bc3bfe5b65692c40ad1cbae2bec4faf9f1b249c397626740db71b62d8",
+      "git_blob_sha": "aa7d6427e6fa1074b79ccd52ef67ac15c5637e85"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "bytes": 7778,
+      "sha256": "5faf033745c8c882c43bb1b372d4e4a5890caec63d9892a2e756c954108b85dc",
+      "git_blob_sha": "9126ae37cbc3587421d6889eadd1d91fbf1994d4"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/values-night/themes.xml",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/values-night/themes.xml",
+      "bytes": 336,
+      "sha256": "530f6b6953005005fcb045d1326b2f0ea13d85f613d06d15e36d1726e779fdb3",
+      "git_blob_sha": "86701ca12be083f34b9354510fc0f63bfc31b20f"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/values/arrays.xml",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/values/arrays.xml",
+      "bytes": 4537,
+      "sha256": "461eb3e5375f10f34f0f3d7407665a17f2ee20e6a49b01bd060724d4ba55a154",
+      "git_blob_sha": "00118cfcb6bb2439d481b342dd4d5eee261ae097"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/values/colors.xml",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/values/colors.xml",
+      "bytes": 187,
+      "sha256": "0694c399de7901982c963ab3abff567a4dab5e7b02dd6b221389e7d855cc2f06",
+      "git_blob_sha": "9b6078fcc60d1454b6d04142c0547d87b20c52f0"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/values/strings.xml",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/values/strings.xml",
+      "bytes": 594,
+      "sha256": "91ea4fd20334f1eef0fdce5a16c4984029bd02f6ae26402b237939bca1c28fdd",
+      "git_blob_sha": "ead62fb00a61b27a15a1344b1e5cb8a4c42444d2"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/values/themes.xml",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/values/themes.xml",
+      "bytes": 420,
+      "sha256": "1736e6799bf69a8fbc72aa525f6759b7b3cbfbfa1ec24165b4ef38a97832dfad",
+      "git_blob_sha": "fb97401cf4dd274fbc16f76f2ee15b07daca7994"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/xml/backup_rules.xml",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/xml/backup_rules.xml",
+      "bytes": 478,
+      "sha256": "9f7e4c84c8fd2c81478d15962383f47cc6ff55d62abcd40c8ffa6fc08a8c35b7",
+      "git_blob_sha": "fa0f996d2c2a6bdd11f5371de4268c8389d6c720"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/main/res/xml/data_extraction_rules.xml",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/main/res/xml/data_extraction_rules.xml",
+      "bytes": 551,
+      "sha256": "cb1fc47ab4a984530ed60e0e6ee638929c3038290e7e7e0b4b03a3a30fbe7381",
+      "git_blob_sha": "9ee9997b0b4726e57c27b2f7b21462b604ff8a88"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/app/src/test/java/com/example/myapplicationhw2/ExampleUnitTest.kt",
+      "source_path": "course-exercises/MyApplicationHW2/app/src/test/java/com/example/myapplicationhw2/ExampleUnitTest.kt",
+      "bytes": 352,
+      "sha256": "48fd1449da689628c40ebe38e818d407ccaa6a83e964df7ad7b1a7b40c08e025",
+      "git_blob_sha": "08158ec8671c8ab76d2abc77e2d9eb00e6f3bd4b"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/build.gradle.kts",
+      "source_path": "course-exercises/MyApplicationHW2/build.gradle.kts",
+      "bytes": 218,
+      "sha256": "6ad44a57f5d546a748417bb5da689c932e40c8478bb5c66cfaef35d42400cd82",
+      "git_blob_sha": "922f551105e1b8c176391b38c9436d45f172b546"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/gradle.properties",
+      "source_path": "course-exercises/MyApplicationHW2/gradle.properties",
+      "bytes": 1346,
+      "sha256": "51e4b5a131eb01b1cdeb2f6f26aaba69d367a4a9d4ccd10c6d6f6d12fd545b66",
+      "git_blob_sha": "20e2a01520742aff4ec9ce578ed4fe5f3a76fe77"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/gradle/libs.versions.toml",
+      "source_path": "course-exercises/MyApplicationHW2/gradle/libs.versions.toml",
+      "bytes": 1191,
+      "sha256": "f2b94b4960460d7adb01d30d55cc2b325987954b75a388872062884ebca09c3b",
+      "git_blob_sha": "df613bf3a152e20ed6bd876bca6ac4b3b4acee25"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/gradle/wrapper/gradle-wrapper.jar",
+      "source_path": "course-exercises/MyApplicationHW2/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 59203,
+      "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+      "git_blob_sha": "e708b1c023ec8b20f512888fe07c5bd3ff77bb8f"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/gradle/wrapper/gradle-wrapper.properties",
+      "source_path": "course-exercises/MyApplicationHW2/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 239,
+      "sha256": "6773ad014688cd1a5be7e28e6457cb7200064027e9e3b9ea2cace5ebeef63844",
+      "git_blob_sha": "cca2d1193e23323d0d7eaa512a8e9199e0ab4c25"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/gradlew",
+      "source_path": "course-exercises/MyApplicationHW2/gradlew",
+      "bytes": 5766,
+      "sha256": "63135287117a1e6d12c84580f1f49c61d1ba02218ecd28660605e97f976e7d65",
+      "git_blob_sha": "4f906e0c811fc9e230eb44819f509cd0627f2600"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/gradlew.bat",
+      "source_path": "course-exercises/MyApplicationHW2/gradlew.bat",
+      "bytes": 2763,
+      "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+      "git_blob_sha": "ac1b06f93825db68fb0c0b5150917f340eaa5d02"
+    },
+    {
+      "path": "Practice/MyApplicationHW2/settings.gradle.kts",
+      "source_path": "course-exercises/MyApplicationHW2/settings.gradle.kts",
+      "bytes": 541,
+      "sha256": "aedc8418299b72b082ec92c99c946217633496839999765f18a4cf0dbd3a620b",
+      "git_blob_sha": "213b6f60477fd08517660d58cd25154f740d7040"
+    },
+    {
+      "path": "docs/APP程式設計_專題企劃書.docx",
+      "source_path": "docs/APP程式設計_專題企劃書.docx",
+      "bytes": 1137458,
+      "sha256": "6a0b8543cba6e31769d2e74e99b5010c921286df185f465ad42460f8dd6c3798",
+      "git_blob_sha": "356e4b547d3c13a09849f1dc89268d69eabe8d09"
+    },
+    {
+      "path": "docs/APP程式設計_專題企劃書.pdf",
+      "source_path": "docs/APP程式設計_專題企劃書.pdf",
+      "bytes": 796132,
+      "sha256": "2c2a6788fc095a6facb055944ba91297ea602ddba53643a70ae402236006df09",
+      "git_blob_sha": "e2674ce12d8238befbaef49d2892e85256918424"
+    },
+    {
+      "path": "docs/APP程式設計_專題簡報.pdf",
+      "source_path": "docs/APP程式設計_專題簡報.pdf",
+      "bytes": 3563215,
+      "sha256": "50eff191ccfff07781b3f9930037fdc9773d720dd44e378c20ed87626f70fa0f",
+      "git_blob_sha": "ec43adacefbf368027715bdc5c683ab878f88db3"
+    },
+    {
+      "path": "docs/APP程式設計_專題簡報.pptx",
+      "source_path": "docs/APP程式設計_專題簡報.pptx",
+      "bytes": 7253189,
+      "sha256": "51691408ed3aba554b3fdb6f6845a5f10dea74f63be6d9df60380b7b742fcd45",
+      "git_blob_sha": "5d759340a358985c20ea0fed966d8920e4c9f83f"
+    },
+    {
+      "path": "docs/Demo.mov",
+      "source_path": "docs/Demo.mov",
+      "bytes": 10542884,
+      "sha256": "9a71f9c9e1f927c47f67b1fce1a07da7180d31b959d358cac0ca110e87535870",
+      "git_blob_sha": "fb58746e067c4c55ed2cbe6e62b7cb6b5155b1d0"
+    },
+    {
+      "path": "prototypes/FinalApplication/.gitignore",
+      "source_path": "legacy/FinalApplication/.gitignore",
+      "bytes": 225,
+      "sha256": "703238443066325af08e3868d1e4b571a633baf68fcc93e323f0066999a97e1b",
+      "git_blob_sha": "aa724b77071afcbd9bb398053e05adaf7ac9405a"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/.gitignore",
+      "source_path": "legacy/FinalApplication/app/.gitignore",
+      "bytes": 6,
+      "sha256": "5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4",
+      "git_blob_sha": "42afabfd2abebf31384ca7797186a27a4b7dbee8"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/build.gradle.kts",
+      "source_path": "legacy/FinalApplication/app/build.gradle.kts",
+      "bytes": 1344,
+      "sha256": "3adaecf9001b04adaf39d0db147cba100c022235e4b1cae0993d4d0784ebf5ba",
+      "git_blob_sha": "91df00f5dd40d9052cd52c647771db27dc2eb191"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/proguard-rules.pro",
+      "source_path": "legacy/FinalApplication/app/proguard-rules.pro",
+      "bytes": 750,
+      "sha256": "56fd960cf225f6ca40f982b13a5dbb0d8bc3dfde13ff76422825c6070d0a1890",
+      "git_blob_sha": "481bb434814107eb79d7a30b676d344b0df2f8ce"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/androidTest/java/com/example/finalapplication/ExampleInstrumentedTest.kt",
+      "source_path": "legacy/FinalApplication/app/src/androidTest/java/com/example/finalapplication/ExampleInstrumentedTest.kt",
+      "bytes": 683,
+      "sha256": "015bf78749c642b1a6518c014a9b0f9217cb7925cba4856b118c1347e4367b7d",
+      "git_blob_sha": "8b6d776636deada88bec0c13f37cb4a77a4d60c9"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/AndroidManifest.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/AndroidManifest.xml",
+      "bytes": 1817,
+      "sha256": "b538dd0dbcfc45b715707c6212938e81ff5e661925507220cc30364f5b49bc41",
+      "git_blob_sha": "6c487584945396b10c82ae72e209740d68b6d118"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/assets/shape_packing_ppo_actor.tflite",
+      "source_path": "legacy/FinalApplication/app/src/main/assets/shape_packing_ppo_actor.tflite",
+      "bytes": 24168,
+      "sha256": "94d372fbde389b1156a146f1852d23bab907794c4fc0e33c7a2b3e252e0ad9b4",
+      "git_blob_sha": "f26979322eaec657e2ead588ada8fb4d0701766b"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/assets/shape_packing_ppo_critic.tflite",
+      "source_path": "legacy/FinalApplication/app/src/main/assets/shape_packing_ppo_critic.tflite",
+      "bytes": 22920,
+      "sha256": "fc6ad83007e8c7f6f213f4273dec2e991114c66b464d3ca41dda3339059b41c7",
+      "git_blob_sha": "cb02a4858e02cc45e1a44cfd02f6406cd956fb01"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/java/com/example/finalapplication/DrawView.kt",
+      "source_path": "legacy/FinalApplication/app/src/main/java/com/example/finalapplication/DrawView.kt",
+      "bytes": 3330,
+      "sha256": "8b02c1680a463876add3a5f2d95a7978829cbbe871edae95741808f3ed1fa9e4",
+      "git_blob_sha": "778608d72a8bd437e7f606659034b6166d9cda8b"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/java/com/example/finalapplication/MainActivity.kt",
+      "source_path": "legacy/FinalApplication/app/src/main/java/com/example/finalapplication/MainActivity.kt",
+      "bytes": 1753,
+      "sha256": "45ad6eca4f0b1262402665e0918887595da27af8e990b25053f787ba8bf89749",
+      "git_blob_sha": "e1e1fef5230004e5f526a5ded3454e9c02f9a8fd"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/java/com/example/finalapplication/MainActivity1.kt",
+      "source_path": "legacy/FinalApplication/app/src/main/java/com/example/finalapplication/MainActivity1.kt",
+      "bytes": 6182,
+      "sha256": "ccfecc0969cd2177b8af9a0a91931112fb4e2bb3ebf884c732921eff319ff999",
+      "git_blob_sha": "d31fb93a6b357198a58831132046c10969401ebd"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/java/com/example/finalapplication/MainActivity2.kt",
+      "source_path": "legacy/FinalApplication/app/src/main/java/com/example/finalapplication/MainActivity2.kt",
+      "bytes": 4571,
+      "sha256": "85a0f7a185bf7271b112402fe0beff583ec9c33f18a38df3750fce7ba722bdd5",
+      "git_blob_sha": "76b2c4856ef3a9e51bd9d190a913e5bbb31747e0"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/java/com/example/finalapplication/MainActivity3.kt",
+      "source_path": "legacy/FinalApplication/app/src/main/java/com/example/finalapplication/MainActivity3.kt",
+      "bytes": 6404,
+      "sha256": "074118e2dccb9cef17b634018f44263f9d12a6d133530da4feff0e92e6c68249",
+      "git_blob_sha": "cf41695ce84215582f23ad753c70a8d9b3508341"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/java/com/example/finalapplication/PolygonView.kt",
+      "source_path": "legacy/FinalApplication/app/src/main/java/com/example/finalapplication/PolygonView.kt",
+      "bytes": 929,
+      "sha256": "eb7b79c7b060cd9a8f1cebddd60fae57d099dd2897a9ef37e7adeacd24397254",
+      "git_blob_sha": "9baaeab36d2031118e0f8610391448a8104be611"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/java/com/example/finalapplication/RotationGestureDetector.kt",
+      "source_path": "legacy/FinalApplication/app/src/main/java/com/example/finalapplication/RotationGestureDetector.kt",
+      "bytes": 1655,
+      "sha256": "6dc8471c2ac01794534f62563ebbff04b4ea3cee1c349018e3fb07207de97c15",
+      "git_blob_sha": "984f50d39599463718248d2813c4f66119a8a684"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/drawable/ic_launcher_background.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/res/drawable/ic_launcher_background.xml",
+      "bytes": 5606,
+      "sha256": "ed423c73a6f40a4d2909f0901e60527b3a807cd59e1b5593bcaae1808b1c6321",
+      "git_blob_sha": "07d5da9cbf141911847041df5d7b87f0dd5ef9d4"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "bytes": 1702,
+      "sha256": "01d1a6a6c1234eb7fe270d097eb283d72b9c95ae5118886f1b6573aad280f1f7",
+      "git_blob_sha": "2b068d11462a4b96669193de13a711a3a36220a0"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/drawable/ic_unknown.png",
+      "source_path": "legacy/FinalApplication/app/src/main/res/drawable/ic_unknown.png",
+      "bytes": 585,
+      "sha256": "d130453eeeab8cf1bdd222a36247be636f7666b473985a9a063b95e451e7b999",
+      "git_blob_sha": "1bf5bd801cdcae0404a16cccb460918996ed5084"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/drawable/title_image.png",
+      "source_path": "legacy/FinalApplication/app/src/main/res/drawable/title_image.png",
+      "bytes": 19347,
+      "sha256": "0014cee9107779f4d5d7c84a4d25626c37344836d2cce7e9972710db26662828",
+      "git_blob_sha": "40d958a74ad4ad9aa3ea3e48ed1b4e39b97baf7c"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/layout/activity_main.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/res/layout/activity_main.xml",
+      "bytes": 1845,
+      "sha256": "6609f5496115e243b98778f1699bf1388f9d6807f67e8046a67347a21dfdf809",
+      "git_blob_sha": "feea0e618fb4f12a3b72ad2e27ae378cdcdbfea4"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/layout/activity_main1.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/res/layout/activity_main1.xml",
+      "bytes": 2846,
+      "sha256": "6e4d537da351dcd8e78765801afc0f54a43d2aaeb6b81be3702f303ca0561ade",
+      "git_blob_sha": "ded5316931fc499e6012ad20d2b6bad928cd4034"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/layout/activity_main2.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/res/layout/activity_main2.xml",
+      "bytes": 3656,
+      "sha256": "678d6dd7af94b8d74da655714e72bf5b345c402f21b2e2637f1db9eb5436287c",
+      "git_blob_sha": "aa5b55cf42916508a2a52ce97a09064726ba502e"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/layout/activity_main3.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/res/layout/activity_main3.xml",
+      "bytes": 2842,
+      "sha256": "872bac942d95fffc9eeaab084131680b0f0b9bd41665849dbfbc3b21e025dd53",
+      "git_blob_sha": "0b0aef382b30f5be19419ad8222bf85f874020f7"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 343,
+      "sha256": "88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0",
+      "git_blob_sha": "6f3b755bf50c6b03d8714a9c6184705e6a08389f"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "source_path": "legacy/FinalApplication/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "bytes": 1404,
+      "sha256": "dd00996198640ed28fbc09cdcd7a3807cf8707f3eb255b659634da3ca6a6ff01",
+      "git_blob_sha": "c209e78ecd372343283f4157dcfd918ec5165bb3"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "source_path": "legacy/FinalApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "bytes": 2898,
+      "sha256": "1ed73f5341a69d3b41c7e02e126803f50cc8c3284adf4bbb737f0c93577aef07",
+      "git_blob_sha": "b2dfe3d1ba5cf3ee31b3ecc1ced89044a1f3b7a9"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "source_path": "legacy/FinalApplication/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "bytes": 982,
+      "sha256": "846219e6f72fe9a6c104ca8919cbee36a101e7d2ff8da9da67b689a5888f060d",
+      "git_blob_sha": "4f0f1d64e58ba64d180ce43ee13bf9a17835fbca"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "source_path": "legacy/FinalApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "bytes": 1772,
+      "sha256": "4e2c58b91de01130e6479e00cbbaaf6e77cd961dd2c8e303cf13cd077fa92632",
+      "git_blob_sha": "62b611da081676d42f6c3f78a2c91e7bcedddedb"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "source_path": "legacy/FinalApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "bytes": 1900,
+      "sha256": "398340dad816fc9a6338cb151a8cf1e45b926f9bfb70628b24c4bd2523cc94d4",
+      "git_blob_sha": "948a3070fe34c611c42c0d3ad3013a0dce358be0"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "source_path": "legacy/FinalApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "bytes": 3918,
+      "sha256": "91b490aef86574901137f0a252272e1f1add99c1ad709e0696ed68929b88d261",
+      "git_blob_sha": "1b9a6956b3acdc11f40ce2bb3f6efbd845cc243f"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "source_path": "legacy/FinalApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "bytes": 2884,
+      "sha256": "58ae87fa0c5b5d1562d27fd648d2c061553fe20e3ed570bde588162d01ea7a27",
+      "git_blob_sha": "28d4b77f9f036a47549d47db79c16788749dca10"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "source_path": "legacy/FinalApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "bytes": 5914,
+      "sha256": "3009fad079f5772f30ecd767f98924367fbe0f81c30048d672d4fda2d5ca7d12",
+      "git_blob_sha": "9287f5083623b375139afb391af71cc533a7dd37"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "source_path": "legacy/FinalApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "bytes": 3844,
+      "sha256": "f98fef5bc3bfe5b65692c40ad1cbae2bec4faf9f1b249c397626740db71b62d8",
+      "git_blob_sha": "aa7d6427e6fa1074b79ccd52ef67ac15c5637e85"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "source_path": "legacy/FinalApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "bytes": 7778,
+      "sha256": "5faf033745c8c882c43bb1b372d4e4a5890caec63d9892a2e756c954108b85dc",
+      "git_blob_sha": "9126ae37cbc3587421d6889eadd1d91fbf1994d4"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/values-night/themes.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/res/values-night/themes.xml",
+      "bytes": 336,
+      "sha256": "5022bfc5ce07b4f31dbd7291d3c1905d7f51e5f530a50bd5578782d25506ecb9",
+      "git_blob_sha": "bbee417387d7296c6a3173f68dd62eaf98dddcaf"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/values/arrays.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/res/values/arrays.xml",
+      "bytes": 741,
+      "sha256": "8f04e0ddc62ce5ae7d3c8f0ba332b639f69061661f63b79596a0d89b62b7e084",
+      "git_blob_sha": "9e3f98cb10a79c98a32f0ff156fe70c5745451f0"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/values/colors.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/res/values/colors.xml",
+      "bytes": 276,
+      "sha256": "5a8dd75cdc1454f4e30d2f3dcfde6bd7182585eea7e6e74c7f483b8359ed7ff7",
+      "git_blob_sha": "cde28cbd10b788ae41ff554c723ed9235889dc55"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/values/strings.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/res/values/strings.xml",
+      "bytes": 79,
+      "sha256": "0eabf9602b3f5438e56979bce56c11b2110e7a39aed4c07bce4a3f84cb4a6a83",
+      "git_blob_sha": "d46e0952deb110be543cbdc0da2d14aa9c77780a"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/values/themes.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/res/values/themes.xml",
+      "bytes": 420,
+      "sha256": "cc3dd8dc0647af69f95a6851698bbb37430601c2f42cf62d2ca27cb175cd832e",
+      "git_blob_sha": "e815e2cce4f1675a9b3b1e6bb4784b1911e89cc9"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/xml/backup_rules.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/res/xml/backup_rules.xml",
+      "bytes": 478,
+      "sha256": "9f7e4c84c8fd2c81478d15962383f47cc6ff55d62abcd40c8ffa6fc08a8c35b7",
+      "git_blob_sha": "fa0f996d2c2a6bdd11f5371de4268c8389d6c720"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/main/res/xml/data_extraction_rules.xml",
+      "source_path": "legacy/FinalApplication/app/src/main/res/xml/data_extraction_rules.xml",
+      "bytes": 551,
+      "sha256": "cb1fc47ab4a984530ed60e0e6ee638929c3038290e7e7e0b4b03a3a30fbe7381",
+      "git_blob_sha": "9ee9997b0b4726e57c27b2f7b21462b604ff8a88"
+    },
+    {
+      "path": "prototypes/FinalApplication/app/src/test/java/com/example/finalapplication/ExampleUnitTest.kt",
+      "source_path": "legacy/FinalApplication/app/src/test/java/com/example/finalapplication/ExampleUnitTest.kt",
+      "bytes": 352,
+      "sha256": "47d12b38a2a03f9c73ba5661fe49b93d92af82d4aeaf73e8589943b1494127af",
+      "git_blob_sha": "a2208734b9b7a75ede404463f80143c2d788eb36"
+    },
+    {
+      "path": "prototypes/FinalApplication/build.gradle.kts",
+      "source_path": "legacy/FinalApplication/build.gradle.kts",
+      "bytes": 218,
+      "sha256": "6ad44a57f5d546a748417bb5da689c932e40c8478bb5c66cfaef35d42400cd82",
+      "git_blob_sha": "922f551105e1b8c176391b38c9436d45f172b546"
+    },
+    {
+      "path": "prototypes/FinalApplication/gradle.properties",
+      "source_path": "legacy/FinalApplication/gradle.properties",
+      "bytes": 1346,
+      "sha256": "51e4b5a131eb01b1cdeb2f6f26aaba69d367a4a9d4ccd10c6d6f6d12fd545b66",
+      "git_blob_sha": "20e2a01520742aff4ec9ce578ed4fe5f3a76fe77"
+    },
+    {
+      "path": "prototypes/FinalApplication/gradle/libs.versions.toml",
+      "source_path": "legacy/FinalApplication/gradle/libs.versions.toml",
+      "bytes": 1191,
+      "sha256": "f2b94b4960460d7adb01d30d55cc2b325987954b75a388872062884ebca09c3b",
+      "git_blob_sha": "df613bf3a152e20ed6bd876bca6ac4b3b4acee25"
+    },
+    {
+      "path": "prototypes/FinalApplication/gradle/wrapper/gradle-wrapper.jar",
+      "source_path": "legacy/FinalApplication/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 59203,
+      "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+      "git_blob_sha": "e708b1c023ec8b20f512888fe07c5bd3ff77bb8f"
+    },
+    {
+      "path": "prototypes/FinalApplication/gradle/wrapper/gradle-wrapper.properties",
+      "source_path": "legacy/FinalApplication/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 239,
+      "sha256": "d6003f138ec2a67c2de564b64efcb122f26283f66122fce76821bb48995a2dd0",
+      "git_blob_sha": "16ca72e386abeee57f24d788187e1eb87f78d335"
+    },
+    {
+      "path": "prototypes/FinalApplication/gradlew",
+      "source_path": "legacy/FinalApplication/gradlew",
+      "bytes": 5766,
+      "sha256": "63135287117a1e6d12c84580f1f49c61d1ba02218ecd28660605e97f976e7d65",
+      "git_blob_sha": "4f906e0c811fc9e230eb44819f509cd0627f2600"
+    },
+    {
+      "path": "prototypes/FinalApplication/gradlew.bat",
+      "source_path": "legacy/FinalApplication/gradlew.bat",
+      "bytes": 2763,
+      "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+      "git_blob_sha": "ac1b06f93825db68fb0c0b5150917f340eaa5d02"
+    },
+    {
+      "path": "prototypes/FinalApplication/settings.gradle.kts",
+      "source_path": "legacy/FinalApplication/settings.gradle.kts",
+      "bytes": 542,
+      "sha256": "e8ffad0c43a88e7cfd0bf844cf6177424e7458bb13185d13f897aff221ee682f",
+      "git_blob_sha": "1f59fabf9556a2224c52281357aff90e87b0722f"
+    }
+  ]
+}

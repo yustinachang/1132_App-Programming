@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  light\themes  -->
+    <color name="my_light_primary">#43B3AE</color>
+    <color name="my_light_on_primary">#FFFFFF</color>
+    <color name="my_light_secondary">#03DAC5</color>
+    <color name="my_light_background">#F5F5F5</color>
+    <!--  night\themes  -->
+    <color name="my_dark_primary">#43B3AE</color>
+    <color name="my_dark_on_primary">#414A4C</color>
+    <color name="my_dark_secondary">#A0D9D7</color>
+    <color name="my_dark_background">#121212</color>
+    <!--  MainActivity  -->
+    <color name="black">#000000</color>
+    <color name="white">#F0F0F0</color>
+    <color name="red">#EA7E73</color>
+    <color name="blue">#61CCCC</color>
+    <color name="yellow">#EFC062</color>
+</resources>

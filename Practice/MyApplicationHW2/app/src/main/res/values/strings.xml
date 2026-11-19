@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My ApplicationHW2</string>
+
+        <string name="button_label">選定送出</string>
+        <string name="country1_label">輸入換算金額</string>
+        <string name="country2_label">換算幣值1</string>
+        <string name="country3_label">換算幣值2</string>
+
+        <!-- 圖片contentDescription對應的字串 -->
+        <string name="cdCountry1">國旗圖示-選定貨幣</string>
+        <string name="cdCountry2">國旗圖示-換算幣值1</string>
+        <string name="cdCountry3">國旗圖示-換算幣值2</string>
+
+</resources>

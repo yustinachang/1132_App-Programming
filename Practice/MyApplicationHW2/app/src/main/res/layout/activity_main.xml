@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- 顯示名稱 (頂部) -->
+    <TextView
+        android:id="@+id/tvTitleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        android:text="Coin Counting Calculator"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 第1列：選單 + 輸入文字 + 圖片 + 按鈕 -->
+
+    <Spinner
+        android:id="@+id/svCountry1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/country_array"
+        app:layout_constraintEnd_toStartOf="@+id/ivCountry1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleName" />
+
+    <EditText
+        android:id="@+id/tvCountry1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/country1_label"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/ivCountry1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/svCountry1" />
+
+    <ImageView
+        android:id="@+id/ivCountry1"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/cdCountry1"
+        app:layout_constraintBottom_toBottomOf="@+id/tvCountry1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvCountry1"
+        app:layout_constraintTop_toTopOf="@+id/tvCountry1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label"
+        android:textSize="20sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/ivCountry1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCountry1" />
+
+    <!-- 第2列：選單 + 文字 + 圖片 -->
+
+    <Spinner
+        android:id="@+id/svCountry2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/all_country_array"
+        app:layout_constraintEnd_toStartOf="@+id/ivCountry2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCountry1" />
+
+    <TextView
+        android:id="@+id/tvCountry2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/country2_label"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/ivCountry2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/svCountry2" />
+
+    <ImageView
+        android:id="@+id/ivCountry2"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/cdCountry3"
+        app:layout_constraintBottom_toBottomOf="@+id/tvCountry2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvCountry2"
+        app:layout_constraintTop_toTopOf="@+id/tvCountry2" />
+
+    <!-- 第3列：選單 + 文字 + 圖片 -->
+    <Spinner
+        android:id="@+id/svCountry3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/all_country_array"
+        android:text="@string/country3_label"
+        app:layout_constraintEnd_toStartOf="@+id/ivCountry3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCountry2" />
+
+    <TextView
+        android:id="@+id/tvCountry3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/country3_label"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/ivCountry3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/svCountry3" />
+
+    <ImageView
+        android:id="@+id/ivCountry3"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/cdCountry3"
+        app:layout_constraintBottom_toBottomOf="@+id/tvCountry3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvCountry3"
+        app:layout_constraintTop_toTopOf="@+id/tvCountry3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
